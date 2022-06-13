@@ -29,7 +29,7 @@
 ➖ 
 
 ## Postgresql
-➖ brew services start postgresql</ br>
+➖ brew services start postgresql  
 ➖ brew services stop postgresql 
 
 
