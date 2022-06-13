@@ -40,7 +40,7 @@
 ➖ 
 
 ## Sublime-Text
-➖ How to alias
+➖ __How to alias__
 	- /Users/UserName/.zshrc
 
 ## ThinkScript
