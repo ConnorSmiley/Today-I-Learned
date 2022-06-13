@@ -41,8 +41,8 @@
 
 ## Sublime-Text
 ➖ __How to alias__ <br />
-&nbsp- /Users/UserName/.zshrc
-		- blah
+&nbsp;* /Users/UserName/.zshrc<br />
+&nbsp;&nbsp;- blah
 
 ## ThinkScript
 ➖ 
