@@ -10,6 +10,8 @@
 
 -[GitHub](#GitHub)
 
+-[Iterm](#Iterm)
+
 -[Mac](#Mac)
 
 -[Postgresql](#Postgresql)
@@ -24,6 +26,7 @@
 
 -[Icons](#Icons)
 
+-[Volta](#Volta)
 
 
 ---
@@ -38,8 +41,12 @@
 
 ## GitHub
 __Line Break__  
--`Double Spaces for line break`  
--`</br>`
+`Double Spaces for line break`  
+`</br>`
+
+## Iterm
+__Clear History__  
+`rm $HISTFILE`
 
 ## Mac
 __SMC__  
@@ -48,6 +55,8 @@ __SMC__
 __PRAM__  
  `cmd + option + r + p`
 
+__Disable Mac Chime__  
+`sudo nvram StartupMute=%01`
 
 ## Postgresql
 __Start / Stop server__  
@@ -69,6 +78,11 @@ __Start / Stop server__
 
 ## ThinkScript
 
+## Volta
+__Steps to Enable__  
+`⌘+R turn on your Mac`  
+`csrutil enable --without kext`  
+`csrutil disable`
 
 ---
 
