@@ -22,17 +22,21 @@
 
 
 ## JavaScript
-* Javascript
+➖ 
 
 ## Premiere
 ➖ " \ " = Show Timeline
 
 ## React
-* React
+➖ 
 
 ## ThinkScript
-* ThinkScript
+➖ 
+
+---
 
 ## Icons
-➕❌💥✨❓❕🚫✖️
+➕❌💥✨❓❕🚫✖️➖ 
+
+
 
