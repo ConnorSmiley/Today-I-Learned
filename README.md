@@ -29,7 +29,7 @@
 ➖ 
 
 ## Postgresql
-➖ brew services start postgresql 
+➖ brew services start postgresql</ br>
 ➖ brew services stop postgresql 
 
 
@@ -42,7 +42,7 @@
 ## Sublime-Text
 ➖ __Alias File__ 
 - `/Users/UserName/.zshrc`
-	 - blah
+	 - Primary Mac?
 
 ## ThinkScript
 ➖ 
