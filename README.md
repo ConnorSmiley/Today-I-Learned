@@ -41,7 +41,7 @@
 
 ## Sublime-Text
 ➖ __How to alias__ <br />
-&nbsp;&nbsp;&nbsp;*/Users/UserName/.zshrc<br />
+- `/Users/UserName/.zshrc<br />`
 	 - blah
 
 ## ThinkScript
@@ -50,7 +50,7 @@
 ---
 
 ## Icons
-➕❌💥✨❓❕🚫✖️➖ 
+➕❌💥✨❓❕🚫✖️➖&nbsp;
 
 
 
