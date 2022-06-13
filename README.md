@@ -14,7 +14,7 @@
 
 -[ThinkScript](#ThinkScript)
 
-
+-[Icons](#Icons)
 
 
 
@@ -25,16 +25,14 @@
 * Javascript
 
 ## Premiere
--" \ " = Show Timeline
+➖ " \ " = Show Timeline
 
 ## React
 * React
 
 ## ThinkScript
 * ThinkScript
-➕
-➕
-➕
-➕
-➕
+
+## Icons
+➕❌💥✨❓❕🚫✖️
 
