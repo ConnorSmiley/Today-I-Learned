@@ -12,7 +12,7 @@
 
 -[React](#React)
 
-
+-[ThinkScript](#ThinkScript)
 
 
 
@@ -25,8 +25,11 @@
 * Javascript
 
 ## Premiere
-- " \ " = Show Timeline
+-" \ " = Show Timeline
 
 ## React
 * React
+
+## ThinkScript
+* ThinkScript
 
