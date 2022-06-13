@@ -14,7 +14,7 @@
 
 -[React](#React)
 
--[Sublime Text](#Sublime Text)
+-[Sublime-Text](#Sublime-Text)
 
 -[ThinkScript](#ThinkScript)
 
@@ -39,7 +39,7 @@
 ## React
 ➖ 
 
-## Sublime Text
+## Sublime-Text
 ➖ How to alias
 	- /Users/UserName/.zshrc
 
