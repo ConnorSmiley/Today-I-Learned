@@ -25,7 +25,7 @@
 * Javascript
 
 ## Premiere
-* " \ " = Show Timeline
+_ " \ " = Show Timeline
 
 ## React
 * React
