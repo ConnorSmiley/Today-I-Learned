@@ -89,7 +89,7 @@ __Start / Stop server__
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
 ## TailWindCss  
-__Center__
+__Center__  
 `inset-x-0`
 
 ## ThinkScript
