@@ -88,7 +88,7 @@ __Start / Stop server__
 `/Users/UserName/.zshrc`  
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
-## TailWindCss
+## TailWindCss  
 __Center__
 `inset-x-0`
 
