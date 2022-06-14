@@ -6,6 +6,8 @@
 
 -[Chrome](#Chrome)
 
+-[Dev-Tools](#Dev-Tools)
+
 -[JavaScript](#JavaScript)
 
 -[GitHub](#GitHub)
@@ -35,6 +37,14 @@
  __Disable Google Helper__  
  `chrome://settings/content/unsandboxedPlugins`
 
+## Dev-Tools
+__Copy & Paste__
+```javascript
+copy(Array.from(
+    document.querySelectorAll(
+        'CLASS-NAME UL LI').map(x =>
+            x.innerText)))
+```
 
 ## JavaScript
  
