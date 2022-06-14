@@ -24,6 +24,8 @@
 
 -[Sublime-Text](#Sublime-Text)
 
+-[TailWindCSS](#TailWindCSS)
+
 -[ThinkScript](#ThinkScript)
 
 -[Icons](#Icons)
@@ -85,6 +87,10 @@ __Start / Stop server__
  __Alias File__   
 `/Users/UserName/.zshrc`  
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
+
+## TailWindCss
+__Center__
+`inset-x-0`
 
 ## ThinkScript
 
