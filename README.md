@@ -70,6 +70,9 @@ __PRAM__
 __Disable Mac Chime__  
 `sudo nvram StartupMute=%01`
 
+__Quit Finder__  
+`defaults write com.apple.finder QuitMenuItem -bool true; killall Finder`
+
 ## Postgresql
 __Start / Stop server__  
 `brew services start postgresql`  
