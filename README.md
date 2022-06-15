@@ -106,7 +106,7 @@ __Save and Write__
 `:w`        write/saves   
 `:wa[!]`   write/save all windows [force]  
 `:x`        save and quit, same as wq  
-`:q!`      force close's non-saved files with change
+`:q!`      force close's non-saved files with changes
 
 ## Volta
 __Steps to Enable__  
