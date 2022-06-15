@@ -30,7 +30,10 @@
 
 -[Icons](#Icons)
 
+-[Vim](#Vim)
+
 -[Volta](#Volta)
+
 
 
 ---
@@ -96,6 +99,14 @@ __Center__
 `inset-x-0`
 
 ## ThinkScript
+
+## Vim
+__Save and Write__  
+`:q` close      
+`:w`        write/saves   
+`:wa[!]`   write/save all windows [force]  
+`:x`        save and quit, same as wq  
+`:q!`      force close's non-saved files with change
 
 ## Volta
 __Steps to Enable__  
