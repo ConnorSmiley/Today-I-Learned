@@ -91,6 +91,14 @@ __Start / Stop server__
 ` \ ` = Show Timeline
 
 ## React
+```javascript
+array = []
+
+{array.slice(startIndex: number, endIndex: number).map(x => {
+ return <Component>{x}</Component>
+})}
+```
+
 
 ##React-StyleComponents
 __Passing Props__
