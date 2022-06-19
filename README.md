@@ -92,7 +92,7 @@ __Start / Stop server__
 
 ## React
 
-### slice and map
+___slice and map___
 ```javascript
 array = []
 
