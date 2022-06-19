@@ -91,6 +91,8 @@ __Start / Stop server__
 ` \ ` = Show Timeline
 
 ## React
+
+### slice and map
 ```javascript
 array = []
 
@@ -100,7 +102,7 @@ array = []
 ```
 
 
-##React-StyleComponents
+## React-StyleComponents
 __Passing Props__
 ```
 ${props => props.NAME ? NAME : NAME}  
