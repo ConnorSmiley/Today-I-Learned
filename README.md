@@ -91,7 +91,7 @@ __Start / Stop server__
 ` \ ` = Show Timeline
 
 ## React
-___slice and map___
+__slice and map___
 ```javascript
 array = []
 
