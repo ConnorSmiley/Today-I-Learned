@@ -117,6 +117,18 @@ __Center__
 `inset-x-0`
 
 ## ThinkScript
+__Input Toggle Switching__
+```javascript
+def VARIABLE_NAME;
+    switch (mode) {
+    case VARIABLE_NAME:
+        something = define logic;
+
+    case VARIABLE_NAME:
+        something = define logic;
+}
+```
+
 
 ## Vim
 __Save and Write__  
