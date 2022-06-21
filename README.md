@@ -54,6 +54,21 @@ copy(Array.from(
 ```
 
 ## JavaScript
+
+```javascript
+KeyboardEvent.code
+vs
+
+useEffect(() => {
+    document.addEventListener("keydown", handleKeyboard)
+
+return () => {
+     document.removeEventListener("keydown", handleKeybaord)
+}
+ }, [handleKeyboard])
+
+```
+Represents a physical key on a keyboard vs the UTF-8 generated
  
 
 ## GitHub
@@ -108,7 +123,7 @@ ${props => props.NAME ? NAME : NAME}
 ```
 
 ## Sublime-Text
- __Alias File__   
+ __Alias File__    
 `/Users/UserName/.zshrc`  
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
