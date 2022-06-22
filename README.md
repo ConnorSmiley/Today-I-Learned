@@ -131,6 +131,13 @@ ${props => props.NAME ? NAME : NAME}
 __Center__  
 `inset-x-0`
 
+__Render Conditions__
+```javascript
+const handleTail = (small ? "bg-black" : med ? "bg-white" : large ? "bg-red-500" : "bg-green-500")
+
+<div className={handleTail}>Blah</div>
+```
+
 ## ThinkScript
 __Input Toggle Switching__
 ```javascript
