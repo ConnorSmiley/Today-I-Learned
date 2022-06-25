@@ -52,9 +52,9 @@ copy(Array.from(document.querySelectorAll('.DIVNAME li a')).map(x => x.innerText
 
 # JavaScript
 __KeyboardEvent.code vs keydown__
+-Represents a physical key on a keyboard vs the UTF-8 generated
 ```javascript
-KeyboardEvent.code
-vs
+KeyboardEvent.code vs
 
 useEffect(() => {
     document.addEventListener("keydown", handleKeyboard)
