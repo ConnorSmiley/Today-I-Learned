@@ -97,7 +97,6 @@ __Quit Finder__
 -`killall Finder`
 
 # Markdown
-### Syntax
 __Line Break__  
 -`&nbsp;`
 
@@ -107,10 +106,11 @@ __Start / Stop server__
 -`brew services stop postgresql`
 
 ## Premiere
-` \ ` = Show Timeline
+__Show Timeline__
+-` \ `
 
 # React
-__slice and map__
+__Slice and Map__
 ```javascript
 array = []
 
@@ -121,7 +121,6 @@ array = []
 
 # React-StyleComponents
 __Passing Props__
-
 -`${props => props.NAME ? NAME : NAME}`  
 
 # Sublime-Text
@@ -130,7 +129,7 @@ __Alias File__
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
 # TailWindCss  
-__Center__  
+__Center Absolute__  
 -`inset-x-0`
 
 __Render Conditions__
