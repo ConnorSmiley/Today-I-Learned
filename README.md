@@ -37,12 +37,11 @@
 -[Volta](#Volta)
 
 
-
+***
 
 
 # Chrome
-***
-###Disable Google Helper
+## Disable Google Helper
  `chrome://settings/content/unsandboxedPlugins`
 
 ## Dev-Tools
