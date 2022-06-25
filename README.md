@@ -77,43 +77,39 @@ __List All Branches__
 -`git branch -a`  
 
 
-
-## Iterm
+# Iterm
 __Clear History__  
-`rm $HISTFILE`
+-`rm $HISTFILE`
 
-## Mac
+# Mac
 __SMC__  
- `shift + ctrl + option + power`
+-`shift + ctrl + option + power`
 
 __PRAM__  
- `cmd + option + r + p`
+-`cmd + option + r + p`
 
 __Disable Mac Chime__  
-`sudo nvram StartupMute=%01`
+-`sudo nvram StartupMute=%01`
 
 __Quit Finder__  
-`defaults write com.apple.finder` <br>
-`QuitMenuItem -bool true;`     
-`killall Finder`
+-`defaults write com.apple.finder` <br>
+-`QuitMenuItem -bool true;`     
+-`killall Finder`
 
 # Markdown
-### Syntaxj
+### Syntax
 __Line Break__  
-`&nbsp;`
+-`&nbsp;`
 
-
-## Postgresql
+# Postgresql
 __Start / Stop server__  
-`brew services start postgresql`  
-`brew services stop postgresql`
-
-
+-`brew services start postgresql`  
+-`brew services stop postgresql`
 
 ## Premiere
 ` \ ` = Show Timeline
 
-## React
+# React
 __slice and map__
 ```javascript
 array = []
@@ -123,21 +119,19 @@ array = []
 })}
 ```
 
-
-## React-StyleComponents
+# React-StyleComponents
 __Passing Props__
-```
-${props => props.NAME ? NAME : NAME}  
-```
 
-## Sublime-Text
- __Alias File__    
-`/Users/UserName/.zshrc`  
+-`${props => props.NAME ? NAME : NAME}`  
+
+# Sublime-Text
+__Alias File__    
+-`/Users/UserName/.zshrc`  
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
-## TailWindCss  
+# TailWindCss  
 __Center__  
-`inset-x-0`
+-`inset-x-0`
 
 __Render Conditions__
 ```javascript
@@ -146,7 +140,7 @@ const handleTail = (small ? "bg-black" : med ? "bg-white" : large ? "bg-red-500"
 <div className={handleTail}>Blah</div>
 ```
 
-## ThinkScript
+# ThinkScript
 __Input Toggle Switching__
 ```javascript
 def VARIABLE_NAME;
@@ -159,20 +153,19 @@ def VARIABLE_NAME;
 }
 ```
 
-
 ## Vim
 __Save and Write__  
-`:q` close      
-`:w`        write/saves   
-`:wa[!]`   write/save all windows [force]  
-`:x`        save and quit, same as wq  
-`:q!`      force close's non-saved files with changes
+-`:q` close      
+-`:w`        write/saves   
+-`:wa[!]`   write/save all windows [force]  
+-`:x`        save and quit, same as wq  
+-`:q!`      force close's non-saved files with changes
 
-## Volta
+# Volta
 __Steps to Enable__  
-`⌘+R turn on your Mac`  
-`csrutil enable --without kext`  
-`csrutil disable`
+-`⌘+R turn on your Mac`  
+-`csrutil enable --without kext`  
+-`csrutil disable`
 
 ---
 
