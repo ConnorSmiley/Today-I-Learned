@@ -101,7 +101,9 @@ __Quit Finder__
 `killall Finder`
 
 # Markdown
-### Syntax
+### <u>Syntax</u>
+__Line Break__
+`&nbsp;`
 
 
 ## Postgresql
