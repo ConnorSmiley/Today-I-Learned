@@ -40,8 +40,8 @@
 
 
 
->#Chrome
-
+#Chrome
+***
 ###Disable Google Helper
  `chrome://settings/content/unsandboxedPlugins`
 
