@@ -72,8 +72,8 @@ __Line Break__
 -`Double Spaces for line break`  
 -`</br>`
 
-__List All Branches__  
--`markdown`  
+__Branches__  
+-`git checkout *branch*`
 -`git branch -a`  
 
 
