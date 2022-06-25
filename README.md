@@ -73,10 +73,14 @@ __Line Break__
 -`</br>`
 
 __Branches__  
-Create new branch
+&nbsp;
+Create new branch  
 -`git checkout [BRANCH]`  
+List all branches  
 -`git branch -a`  
+Delete branch  
 -`git branch -d [BRANCH]`  
+Create and move to branch  
 -`git checkout -b [BRANCH]`  
 
 
