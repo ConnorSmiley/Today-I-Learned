@@ -40,8 +40,8 @@
 
 ---
 
-## Chrome
- __Disable Google Helper__  
+#<u>Chrome</u>
+###Disable Google Helper
  `chrome://settings/content/unsandboxedPlugins`
 
 ## Dev-Tools
@@ -68,10 +68,18 @@ return () => {
 Represents a physical key on a keyboard vs the UTF-8 generated
  
 
-## GitHub
-__Line Break__  
-`Double Spaces for line break`  
-`</br>`
+#<u>GitHub</u>
+###Line Break  
+```markdown
+• Double Spaces for line break`
+• </br>
+```  
+&nbsp;
+###List All Branches
+```markdown
+git branch -a  
+```
+
 
 ## Iterm
 __Clear History__  
