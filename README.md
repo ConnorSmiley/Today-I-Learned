@@ -65,11 +65,10 @@ return () => {
  }, [handleKeyboard])
 
 ```
-Represents a physical key on a keyboard vs the UTF-8 generated
  
 
-#<u>GitHub</u>
-###Line Break  
+# GitHub
+__Line Break__  
 ```markdown
 • Double Spaces for line break`
 • </br>
