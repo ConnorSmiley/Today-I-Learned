@@ -16,6 +16,8 @@
 
 -[Mac](#Mac)
 
+-[Markdown](#Markdown)
+
 -[Postgresql](#Postgresql)
 
 -[Premiere](#Premiere)
@@ -69,10 +71,9 @@ return () => {
 
 # GitHub
 __Line Break__  
-```markdown
-• Double Spaces for line break`
-• </br>
-```  
+-`Double Spaces for line break`  
+-`</br>`
+
 &nbsp;
 ###List All Branches
 ```markdown
@@ -98,6 +99,10 @@ __Quit Finder__
 `defaults write com.apple.finder` <br>
 `QuitMenuItem -bool true;`     
 `killall Finder`
+
+# Markdown
+### Syntax
+
 
 ## Postgresql
 __Start / Stop server__  
