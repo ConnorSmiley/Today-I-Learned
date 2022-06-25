@@ -50,8 +50,8 @@ __Copy & Paste__
 copy(Array.from(document.querySelectorAll('.DIVNAME li a')).map(x => x.innerText))
 ```
 
-## JavaScript
-
+# JavaScript
+__KeyboardEvent.code vs keydown__
 ```javascript
 KeyboardEvent.code
 vs
