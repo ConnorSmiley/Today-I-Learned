@@ -73,7 +73,8 @@ __Line Break__
 -`</br>`
 
 
-#__`Branches`__  
+###__`Branches`__  
+
 Create new branch  
 -`git checkout [BRANCH]`  
 List all branches  
