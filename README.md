@@ -75,6 +75,8 @@ __Line Break__
 __Branches__  
 -`git checkout -branch-`  
 -`git branch -a`  
+-`git branch -d -branch`  
+-`git checkout -b -branchName-`  
 
 
 # Iterm
