@@ -42,17 +42,17 @@
 ***
 
 
-# Chrome
+># Chrome
 __Disable Google Helper__  
 -`chrome://settings/content/unsandboxedPlugins`
 
-# Dev-Tools
+># Dev-Tools
 __Copy & Paste__
 ```javascript
 copy(Array.from(document.querySelectorAll('.DIVNAME li a')).map(x => x.innerText))
 ```
 
-# JavaScript
+># JavaScript
 __KeyboardEvent.code vs keydown__  
 -Represents a physical key on a keyboard vs the UTF-8 generated
 ```javascript
@@ -73,7 +73,7 @@ __Line Break__
 -`</br>`
 <br>
 </br>
-### Branches
+## Branches
 
 __Create new branch__  
 -`git checkout [BRANCH]`  
@@ -88,11 +88,11 @@ __Create and move to branch__
 -`git checkout -b [BRANCH]`  
 
 
-# Iterm
+># Iterm
 __Clear History__  
 -`rm $HISTFILE`
 
-# Mac
+># Mac
 __SMC__  
 -`shift + ctrl + option + power`
 
@@ -107,20 +107,20 @@ __Quit Finder__
 -`QuitMenuItem -bool true;`     
 -`killall Finder`
 
-# Markdown
+># Markdown
 __Line Break__  
 -`&nbsp;`
 
-# Postgresql
+># Postgresql
 __Start / Stop server__  
 -`brew services start postgresql`  
 -`brew services stop postgresql`
 
-## Premiere
+># Premiere
 __Show Timeline__  
 -` \ `
 
-# React
+># React
 __Slice and Map__
 ```javascript
 array = []
@@ -130,16 +130,16 @@ array = []
 })}
 ```
 
-# React-StyleComponents
+># React-StyleComponents
 __Passing Props__  
 -`${props => props.NAME ? NAME : NAME}`  
 
-# Sublime-Text
+># Sublime-Text
 __Alias File__    
 -`/Users/UserName/.zshrc`  
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
-# TailWindCss  
+># TailWindCss  
 __Center Absolute__  
 -`inset-x-0`
 
@@ -150,7 +150,7 @@ const handleTail = (small ? "bg-black" : med ? "bg-white" : large ? "bg-red-500"
 <div className={handleTail}>Blah</div>
 ```
 
-# ThinkScript
+># ThinkScript
 __Input Toggle Switching__
 ```javascript
 def VARIABLE_NAME;
@@ -163,7 +163,7 @@ def VARIABLE_NAME;
 }
 ```
 
-## Vim
+># Vim
 __Save and Write__  
 -`:q` close      
 -`:w`        write/saves   
@@ -171,7 +171,7 @@ __Save and Write__
 -`:x`        save and quit, same as wq  
 -`:q!`      force close's non-saved files with changes
 
-# Volta
+># Volta
 __Steps to Enable__  
 -`⌘+R turn on your Mac`  
 -`csrutil enable --without kext`  
