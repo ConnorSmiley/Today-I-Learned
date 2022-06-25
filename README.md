@@ -65,20 +65,17 @@ return () => {
      document.removeEventListener("keydown", handleKeybaord)
 }
  }, [handleKeyboard])
-
 ```
- 
 
 # GitHub
 __Line Break__  
 -`Double Spaces for line break`  
 -`</br>`
 
-&nbsp;
-###List All Branches
-```markdown
-git branch -a  
-```
+__List All Branches__
+-`markdown`
+-`git branch -a`
+
 
 
 ## Iterm
@@ -101,8 +98,8 @@ __Quit Finder__
 `killall Finder`
 
 # Markdown
-### <u>Syntax</u>
-__Line Break__
+### Syntaxj
+__Line Break__  
 `&nbsp;`
 
 
