@@ -41,7 +41,7 @@
 
 
 # Chrome
-### Disable Google Helper
+•__Disable Google Helper__
  `chrome://settings/content/unsandboxedPlugins`
 
 ### Dev-Tools
