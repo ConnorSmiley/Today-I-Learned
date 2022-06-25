@@ -106,7 +106,7 @@ __Start / Stop server__
 -`brew services stop postgresql`
 
 ## Premiere
-__Show Timeline__
+__Show Timeline__  
 -` \ `
 
 # React
@@ -120,7 +120,7 @@ array = []
 ```
 
 # React-StyleComponents
-__Passing Props__
+__Passing Props__  
 -`${props => props.NAME ? NAME : NAME}`  
 
 # Sublime-Text
