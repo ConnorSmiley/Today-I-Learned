@@ -73,7 +73,7 @@ __Line Break__
 -`</br>`
 <br>
 </br>
-### `Branches`
+>Branches
 
 Create new branch  
 -`git checkout [BRANCH]`  
