@@ -71,9 +71,8 @@ return () => {
 __Line Break__  
 -`Double Spaces for line break`  
 -`</br>`
-
-
-
+<br>
+</br>
 ### __Branches__
 
 Create new branch  
