@@ -44,7 +44,7 @@
 __Disable Google Helper__  
 -`chrome://settings/content/unsandboxedPlugins`
 
-### Dev-Tools
+# Dev-Tools
 __Copy & Paste__
 ```javascript
 copy(Array.from(document.querySelectorAll('.DIVNAME li a')).map(x => x.innerText))
