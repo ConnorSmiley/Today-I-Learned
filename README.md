@@ -72,8 +72,8 @@ __Line Break__
 -`Double Spaces for line break`  
 -`</br>`
 
-### Branches  
 
+#__`Branches`__  
 Create new branch  
 -`git checkout [BRANCH]`  
 List all branches  
