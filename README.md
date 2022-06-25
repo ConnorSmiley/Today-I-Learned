@@ -73,7 +73,7 @@ __Line Break__
 -`</br>`
 
 __Branches__  
--`git checkout <em>branch</em>`  
+-`git checkout <i>branch</i>`  
 -`git branch -a`  
 
 
