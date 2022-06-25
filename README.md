@@ -72,9 +72,9 @@ __Line Break__
 -`Double Spaces for line break`  
 -`</br>`
 
-__List All Branches__
--`markdown`
--`git branch -a`
+__List All Branches__  
+-`markdown`  
+-`git branch -a`  
 
 
 
