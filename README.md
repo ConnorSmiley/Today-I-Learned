@@ -18,6 +18,8 @@
 
 -[Markdown](#Markdown)
 
+-[Nextjs](#Nextjs)
+
 -[Postgresql](#Postgresql)
 
 -[Premiere](#Premiere)
@@ -119,6 +121,15 @@ __Quit Finder__
 >## Markdown
 __Line Break__  
 -`&nbsp;`
+
+>## Nextjs
+__Install TW__  
+-`npm install -D tailwindcss postcss autoprefixer`  
+-`npx tailwindcss init -p`
+
+
+
+
 
 >## Postgresql
 __Start / Stop server__  
