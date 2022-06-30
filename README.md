@@ -28,6 +28,8 @@
 
 -[React-StyleComponents](#React-StyleComponents)
 
+-[Redux](#Redux)
+
 -[Sublime-Text](#Sublime-Text)
 
 -[TailWindCSS](#TailWindCSS)
@@ -237,6 +239,31 @@ const [timeRunning, setTimeRunning] = useState(5)
 >## React-StyleComponents
 __Passing Props__  
 -`${props => props.NAME ? NAME : NAME}`  
+
+>## Redux  
+__Reducer__  
+```javascript
+const redux = require("redux")
+
+function add() {
+    return {
+        type: "ADD"
+    }
+}
+
+function reducer(state = {count : 0}, action) {
+    switch(action.type) {
+     case "ADD":
+         return {
+         count = state.count + 1
+     }
+     default:
+         return state
+    } 
+}
+
+const store = redux.createStore(reducer)
+```
 
 >## Sublime-Text
 __Alias File__    
