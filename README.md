@@ -100,7 +100,6 @@ __Abort Merge__
 -`git merge --abort`
 
 
-
 >## Iterm
 __Clear History__  
 -`rm $HISTFILE`
