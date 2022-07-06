@@ -3,7 +3,6 @@
 
 ---
 
-
 -[Chrome](#Chrome)
 
 -[Dev-Tools](#Dev-Tools)
@@ -29,6 +28,8 @@
 -[React-StyleComponents](#React-StyleComponents)
 
 -[Redux](#Redux)
+
+-[ReduxToolKid](#ReduxToolKit)
 
 -[Sublime-Text](#Sublime-Text)
 
@@ -126,8 +127,6 @@ __Line Break__
 __Install TW__  
 -`npm install -D tailwindcss postcss autoprefixer`  
 -`npx tailwindcss init -p`
-
-
 
 
 >## Postgresql
@@ -239,29 +238,44 @@ __Passing Props__
 -`${props => props.NAME ? NAME : NAME}`  
 
 >## Redux  
-__Reducer__  
-```javascript
-const redux = require("redux")
 
-function add() {
+__Reducers__
+```javascript
+const initailState ={
+    numOfCakes:10,
+}
+
+const reducer = (state = initailState, action) => {
+    switch(action.type) {
+     case CAKE_ORDERED:
+         return {
+     numOfCakes: state.numOfCakes - 1,
+    }
+    default:
+        return state
+}}
+```
+
+__Actions__  
+```javascript
+function orderCake() {
     return {
-        type: "ADD"
+        type: ???,
+            quantity: 1,
     }
 }
-
-function reducer(state = {count : 0}, action) {
-    switch(action.type) {
-     case "ADD":
-         return {
-         count = state.count + 1
-     }
-     default:
-         return state
-    } 
-}
-
-const store = redux.createStore(reducer)
 ```
+
+__Store__  
+```javascript
+const createStore = redux.createStore
+.
+.
+.
+const store = createStore(reducer)
+```
+
+
 
 >## Sublime-Text
 __Alias File__    
