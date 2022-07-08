@@ -240,7 +240,6 @@ __Passing Props__
 >## Redux  
 
 
-
 >## Sublime-Text
 __Alias File__    
 -`/Users/UserName/.zshrc`  
