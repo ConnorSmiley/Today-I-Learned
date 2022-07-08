@@ -239,42 +239,6 @@ __Passing Props__
 
 >## Redux  
 
-__Reducers__
-```javascript
-const initailState ={
-    numOfCakes:10,
-}
-
-const reducer = (state = initailState, action) => {
-    switch(action.type) {
-     case CAKE_ORDERED:
-         return {
-     numOfCakes: state.numOfCakes - 1,
-    }
-    default:
-        return state
-}}
-```
-
-__Actions__  
-```javascript
-function orderCake() {
-    return {
-        type: ???,
-            quantity: 1,
-    }
-}
-```
-
-__Store__  
-```javascript
-const createStore = redux.createStore
-.
-.
-.
-const store = createStore(reducer)
-```
-
 
 
 >## Sublime-Text
