@@ -243,14 +243,16 @@ __Passing Props__
 
 import { createSlice } from '@reduxjs/toolkit'
 
+initialState = [{
+
+}]
+
 export const $VAR$ = createSlice({
-name: '',
-initialState: {
+ name: '',
+ initialState,
+ reducers: {
 
-},
-reducers: {
-
-},
+ },
 })
 
 export const {} = $VAR$.actions
