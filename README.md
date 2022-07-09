@@ -243,7 +243,7 @@ __Passing Props__
 
 import { createSlice } from '@reduxjs/toolkit'
 
-initialState = [{
+const initialState = [{
 
 }]
 
