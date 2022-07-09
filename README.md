@@ -239,6 +239,24 @@ __Passing Props__
 
 >## Redux  
 
+```javascript
+
+import { createSlice } from '@reduxjs/toolkit'
+
+export const $VAR$ = createSlice({
+name: '',
+initialState: {
+
+},
+reducers: {
+
+},
+})
+
+export const {} = $VAR$.actions
+export default $VAR$.reducer
+```
+
 
 >## Sublime-Text
 __Alias File__    
