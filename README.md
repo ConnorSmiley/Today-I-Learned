@@ -255,6 +255,7 @@ export const $VAR$ = createSlice({
  },
 })
 
+export const ??? = (state) => state.???
 export const {} = $VAR$.actions
 export default $VAR$.reducer
 ```
