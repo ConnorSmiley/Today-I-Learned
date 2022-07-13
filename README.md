@@ -43,6 +43,8 @@
 
 -[Volta](#Volta)
 
+-[ShortCutUpdates](#ShortCutUpdates)
+
 ***
 
 
@@ -303,6 +305,16 @@ __Steps to Enable__
 -`⌘+R turn on your Mac`  
 -`csrutil enable --without kext`  
 -`csrutil disable`
+
+
+>## ShortCutUpdates
+__Arrow__
+ar
+`= () => {
+$End$
+}`
+
+
 
 ---
 
