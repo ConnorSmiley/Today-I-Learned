@@ -3,6 +3,8 @@
 
 ---
 
+-[Cookies](#Cookies)
+
 -[Chrome](#Chrome)
 
 -[Dev-Tools](#Dev-Tools)
@@ -12,6 +14,8 @@
 -[GitHub](#GitHub)
 
 -[Iterm](#Iterm)
+
+-[LocalStorage](#LocalStorage)
 
 -[Mac](#Mac)
 
@@ -46,6 +50,9 @@
 -[ShortCutUpdates](#ShortCutUpdates)
 
 ***
+
+
+>## Cookies
 
 
 >## Chrome
@@ -105,6 +112,10 @@ __Abort Merge__
 >## Iterm
 __Clear History__  
 -`rm $HISTFILE`
+
+
+>## LocalStorage
+
 
 >## Mac
 __SMC__  
