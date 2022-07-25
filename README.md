@@ -7,6 +7,8 @@
 
 -[Chrome](#Chrome)
 
+-[CSS](#CSS)
+
 -[Dev-Tools](#Dev-Tools)
 
 -[JavaScript](#JavaScript)
@@ -50,6 +52,16 @@
 -[ShortCutUpdates](#ShortCutUpdates)
 
 ***
+>## CSS
+
+__User Select None__
+```css
+user-select: auto|none|text|all;
+```
+
+
+
+
 
 
 >## Cookies
@@ -78,6 +90,11 @@ return () => {
      document.removeEventListener("keydown", handleKeybaord)
 }
  }, [handleKeyboard])
+```
+
+__New Date__
+```javascript
+{new Date(props.prop).toLocaleTimeString({hour: "numeric", minute: "numeric"})}
 ```
 
 __Set Interval__
@@ -244,6 +261,13 @@ const [timeRunning, setTimeRunning] = useState(5)
         return(
 <Button 
     disable={timeRunning}/>)
+```
+
+
+_Disable Input_
+```javascript
+<button disabled={!text}>CLICK</button>
+
 ```
 
 >## React-StyleComponents
