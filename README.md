@@ -92,6 +92,10 @@ return () => {
  }, [handleKeyboard])
 ```
 
+__Looping Backwards is faster__
+Only by a margin
+
+
 __New Date__
 ```javascript
 {new Date(props.prop).toLocaleTimeString({hour: "numeric", minute: "numeric"})}
