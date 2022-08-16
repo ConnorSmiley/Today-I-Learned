@@ -17,6 +17,8 @@
 
 -[Iterm](#Iterm)
 
+-[Linux-Commands](#Linux-Commands)
+
 -[LocalStorage](#LocalStorage)
 
 -[Mac](#Mac)
@@ -133,6 +135,52 @@ __Abort Merge__
 >## Iterm
 __Clear History__  
 -`rm $HISTFILE`
+
+
+>##Linux-Commands
+`
+ls
+
+grep
+
+cd
+
+shutdown
+
+pwd
+
+passwd
+
+mv
+
+cp
+
+rm
+
+chmod
+
+chown
+
+iwconfig
+
+ifconfig
+
+ps
+
+su
+
+sudo
+
+apt-get
+
+vi
+
+dd
+
+kill
+
+` 
+
 
 
 >## LocalStorage
