@@ -138,46 +138,46 @@ __Clear History__
 
 
 >##Linux-Commands
-`
-ls
 
-grep
+`ls` = list
 
-cd
+`grep` = 
 
-shutdown
+`cd` =
 
-pwd
+`shutdown` = 
 
-passwd
+`pwd` = print working dir
 
-mv
+`passwd` =
 
-cp
+`mv` =
 
-rm
+`cp` = 
 
-chmod
+`rm -rf` = remove
 
-chown
+`chmod` = change mod
 
-iwconfig
+`chown` = change ownership
 
-ifconfig
+`iwconfig` = 
 
-ps
+`ifconfig` =
 
-su
+`ps` =
 
-sudo
+`su` = super user
 
-apt-get
+`sudo` = super user once
 
-vi
+`apt-get` = 
 
-dd
+`vi` = vim
 
-kill
+`dd` = 
+
+`kill $name` = kill app
 
 ` 
 
