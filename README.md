@@ -140,7 +140,7 @@ __Clear History__
 >## Linux-Commands
 
 
-[`ls` = list](Comptia-A+/Linux-Commands.md)
+[`ls` = list](Linux-Commands/comptia-a+/linux-commands.md)
 
 `grep` = 
 
