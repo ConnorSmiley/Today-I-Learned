@@ -423,42 +423,48 @@ __Navigation__
 
 __Command Line Tools__
 
-`grep` =
+
+`ipconfig` = displays TCP/IP, DHCP and DNS
+
+`ping` =
+
+`hostname` =
+
+`netstat` =
+
+`nslookup` =
+
+`chkdsk` =
+
+`net user` =
+
+`net use` =
+
+`tracert` =
+
+`format` =
+
+`xcopy` =
+
+`copy` =
+
+`robocopy` =
+
+`gpupdate` =
+
+`gpresult` =
 
 `shutdown` =
 
-`pwd` = print working dir
+`sfc` =
 
-`passwd` =
+`[command name]/?` =
 
-`mv` =
+`diskpart` =
 
-`cp` =
+`pathping` =
 
-`rm -rf` = remove
-
-`chmod` = change mod
-
-`chown` = change ownership
-
-`iwconfig` =
-
-`ifconfig` =
-
-`ps` =
-
-`su` = super user
-
-`sudo` = super user once
-
-`apt-get` =
-
-`vi` = vim
-
-`dd` =
-
-`kill $name` = kill app
-
+`winver` =
 
 
 >## ShortCutUpdates
