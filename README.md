@@ -51,6 +51,8 @@
 
 -[Volta](#Volta)
 
+-[WindowsCommands](#WindowsCommands)
+
 -[ShortCutUpdates](#ShortCutUpdates)
 
 ***
@@ -142,9 +144,20 @@ __Clear History__
 
 [`ls` = list](Linux-Commands/comptia-a+/linux-commands.md)
 
-`grep` = 
+__Navigation__
 
-`cd` =
+`cd` = change directory
+
+`dir` = list current dir (similar to ls)
+
+`md` = make dir
+
+`rmdir` = remove dir
+
+
+__Command Line Tools__
+
+`grep` = 
 
 `shutdown` = 
 
@@ -393,6 +406,59 @@ __Steps to Enable__
 -`⌘+R turn on your Mac`  
 -`csrutil enable --without kext`  
 -`csrutil disable`
+
+
+>## WindowsCommands
+ 
+__Navigation__
+
+`cd` = change directory
+
+`dir` = list current dir (similar to ls)
+
+`md` = make dir
+
+`rmdir` = remove dir
+
+
+__Command Line Tools__
+
+`grep` =
+
+`shutdown` =
+
+`pwd` = print working dir
+
+`passwd` =
+
+`mv` =
+
+`cp` =
+
+`rm -rf` = remove
+
+`chmod` = change mod
+
+`chown` = change ownership
+
+`iwconfig` =
+
+`ifconfig` =
+
+`ps` =
+
+`su` = super user
+
+`sudo` = super user once
+
+`apt-get` =
+
+`vi` = vim
+
+`dd` =
+
+`kill $name` = kill app
+
 
 
 >## ShortCutUpdates
