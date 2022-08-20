@@ -139,7 +139,8 @@ __Clear History__
 
 >##Linux-Commands
 
-`ls` = list
+
+`ls` = list (Comptia-A+/Linux-Commands.md)
 
 `grep` = 
 
