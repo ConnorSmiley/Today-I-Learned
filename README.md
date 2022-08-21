@@ -426,13 +426,13 @@ __Command Line Tools__
 
 `ipconfig` = displays TCP/IP, DHCP and DNS
 
-`ping` =
+`ping` = Verifies connection with ICMP request.
 
-`hostname` =
+`hostname` = Displays host name
 
-`netstat` =
+`netstat` = Displays TCP connections, ports, Ethernet, IP routing table, IPv4 and IPv6 stats
 
-`nslookup` =
+`nslookup` = Name server lookup
 
 `chkdsk` =
 
