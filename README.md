@@ -434,37 +434,39 @@ __Command Line Tools__
 
 `nslookup` = Name server lookup
 
-`chkdsk` =
+`chkdsk` = check for disk errors
 
-`net user` =
+`net` = used to connect to, remove, and configure connections to shared resources
 
-`net use` =
+`net user` = shows user privileges
 
-`tracert` =
+`net use` = shows network connections
 
-`format` =
+`tracert` = Determine package route to destination
 
-`xcopy` =
+`format` = format drive
 
-`copy` =
+`xcopy` = copies full directory
 
-`robocopy` =
+`copy` = copy `file-name` `rename-copy-file`
 
-`gpupdate` =
+`robocopy` = more robust copy method to xcopy
 
-`gpresult` =
+`gpupdate` = updates group policy 
 
-`shutdown` =
+`gpresult` = shows current group policy update
 
-`sfc` =
+`shutdown` = shutdown computer
+
+`sfc` = checks and repairs windows system files
 
 `[command name]/?` =
 
-`diskpart` =
+`diskpart` = makes disk partitions
 
-`pathping` =
+`pathping` = show path route and network information
 
-`winver` =
+`winver` = shows which version
 
 
 >## ShortCutUpdates
