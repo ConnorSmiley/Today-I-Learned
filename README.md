@@ -436,7 +436,7 @@ __Command Line Tools__
 
 `chkdsk` = check for disk errors
 
-`net` = used to connect to, remove, and configure connections to shared resources
+`net` = used to connect to, remove, and configure connections with shared resources
 
 `net user` = shows user privileges
 
