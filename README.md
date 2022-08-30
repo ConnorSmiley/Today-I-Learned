@@ -146,13 +146,6 @@ __Clear History__
 
 __Navigation__
 
-`cd` = change directory
-
-`dir` = list current dir (similar to ls)
-
-`md` = make dir
-
-`rmdir` = remove dir
 
 
 __Command Line Tools__
