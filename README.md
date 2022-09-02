@@ -453,7 +453,7 @@ __Command Line Tools__
 
 `sfc` = checks and repairs windows system files
 
-`[command name]/?` =
+`[command name]/?` = Show help command (similar to man)
 
 `diskpart` = makes disk partitions
 
