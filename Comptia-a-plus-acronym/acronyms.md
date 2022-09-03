@@ -1,6 +1,3 @@
--`TCP` = Transmission Control Protocol
-
--`TCP/IP` = Transmission Control Protocol/Internet Protocol
 
 -`AAA` = Authentication, Authorization, and Accounting
 
@@ -376,7 +373,7 @@
 
 -`TCP` = Transmission Control Protocol
 
--`TCP` =/IP Transmission Control Protocol/Internet Protocol
+-`TCP/IP` = Transmission Control Protocol/Internet Protocol
 
 -`TFTP` = Trivial File Transfer Protocol
 
