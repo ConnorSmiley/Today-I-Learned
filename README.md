@@ -488,6 +488,8 @@ __Network Command Line Tools__
 
 `tracert` = Determine package route to destination
 
+`nslookup` = look up DNS, names and IP
+
 
 
 >## ShortCutUpdates
