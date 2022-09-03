@@ -459,8 +459,6 @@ __Command Line Tools__
 
 `diskpart` = makes disk partitions
 
-`pathping` = show path route and network information
-
 `winver` = shows which version
 
 
@@ -470,6 +468,8 @@ __Network Command Line Tools__
 -`/all` = more details on ipconfig
 
 `ping` = Verifies connection with ICMP request.
+
+`pathping` = show path route and network information / tracert + ping
 
 `hostname` = Displays host name
 
