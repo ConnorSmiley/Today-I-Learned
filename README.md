@@ -411,13 +411,26 @@ __Navigation__
 
 `md` = make dir
 
+`mkdir` = make dir
+
+`chdir` = change dir
+
+`rd` = remove dir
+
 `rmdir` = remove dir
 
 
 __Command Line Tools__
 
 
+`[command name] /?` = Show help command (similar to man)
+`help` = help
+
+`cls` = clear screen
+
 `ipconfig` = displays TCP/IP, DHCP and DNS
+-`/all` = more details on ipconfig
+
 
 `ping` = Verifies connection with ICMP request.
 
@@ -439,21 +452,29 @@ __Command Line Tools__
 
 `format` = format drive
 
-`xcopy` = copies full directory
+`xcopy` = copies full directory and files
+-`/s` = & copies sub-directories
 
 `copy` = copy `file-name` `rename-copy-file`
+-`/v` = verifies that new files are written correctly
+-`/y` = suppresses prompt to confirm over-write file message
 
 `robocopy` = more robust copy method to xcopy
 
-`gpupdate` = updates group policy 
+`gpupdate` = updates group policy
+-`/force` = everything is updated
+
 
 `gpresult` = shows current group policy update
+-`/r` = shows all current active dir policy settings
+
 
 `shutdown` = shutdown computer
+-`/s /t nn` = shutdown timer
+-`/r /t nn` = restart timer
+-`/a` = abort shutdown
 
 `sfc` = checks and repairs windows system files
-
-`[command name]/?` = Show help command (similar to man)
 
 `diskpart` = makes disk partitions
 
