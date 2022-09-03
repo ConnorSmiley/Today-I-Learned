@@ -419,6 +419,8 @@ __Navigation__
 
 `rmdir` = remove dir
 
+`cls` = clear screen
+
 
 __Command Line Tools__
 
@@ -426,29 +428,9 @@ __Command Line Tools__
 `[command name] /?` = Show help command (similar to man)
 `help` = help
 
-`cls` = clear screen
-
-`ipconfig` = displays TCP/IP, DHCP and DNS
--`/all` = more details on ipconfig
-
-
-`ping` = Verifies connection with ICMP request.
-
-`hostname` = Displays host name
-
-`netstat` = Displays TCP connections, ports, Ethernet, IP routing table, IPv4 and IPv6 stats
-
-`nslookup` = Name server lookup
-
 `chkdsk` = check for disk errors
-
-`net` = used to connect to, remove, and configure connections with shared resources
-
-`net user` = shows user privileges
-
-`net use` = shows network connections
-
-`tracert` = Determine package route to destination
+-`/f` = fixes logical file system errors on disk
+-`/r` = locates bad sectors and recovers readable information
 
 `format` = format drive
 
@@ -464,10 +446,8 @@ __Command Line Tools__
 `gpupdate` = updates group policy
 -`/force` = everything is updated
 
-
 `gpresult` = shows current group policy update
 -`/r` = shows all current active dir policy settings
-
 
 `shutdown` = shutdown computer
 -`/s /t nn` = shutdown timer
@@ -475,12 +455,39 @@ __Command Line Tools__
 -`/a` = abort shutdown
 
 `sfc` = checks and repairs windows system files
+-`/scannow` = checks disk
 
 `diskpart` = makes disk partitions
 
 `pathping` = show path route and network information
 
 `winver` = shows which version
+
+
+__Network Command Line Tools__
+
+`ipconfig` = displays TCP/IP, DHCP and DNS
+-`/all` = more details on ipconfig
+
+`ping` = Verifies connection with ICMP request.
+
+`hostname` = Displays host name
+
+`netstat` = Displays TCP connections, ports, Ethernet, IP routing table, IPv4 and IPv6 stats
+-`/a` = show all active connection
+-`/b` = show all binaries
+-`/n` = do no resolve names
+
+`nslookup` = Name server lookup
+
+`net` = used to connect to, remove, and configure connections with shared resources
+
+`net user` = shows user privileges
+
+`net use` = shows network connections
+
+`tracert` = Determine package route to destination
+
 
 
 >## ShortCutUpdates
