@@ -146,51 +146,6 @@ __Clear History__
 
 [Link to Linux Commands](Linux-Commands/comptia-a+/linux-commands.md)
 
-__Navigation__
-
-
-
-__Command Line Tools__
-
-`grep` = 
-
-`shutdown` = 
-
-`pwd` = print working dir
-
-`passwd` =
-
-`mv` =
-
-`cp` = 
-
-`rm -rf` = remove
-
-`chmod` = change mod
-
-`chown` = change ownership
-
-`iwconfig` = 
-
-`ifconfig` =
-
-`ps` =
-
-`su` = super user
-
-`sudo` = super user once
-
-`apt-get` = 
-
-`vi` = vim
-
-`dd` = 
-
-`kill $name` = kill app
-
-` 
-
-
 
 >## LocalStorage
 
