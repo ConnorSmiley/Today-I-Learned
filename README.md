@@ -144,7 +144,7 @@ __Clear History__
 >## Linux-Commands
 
 
-[`ls` = list](Linux-Commands/comptia-a+/linux-commands.md)
+[Link to Linux Commands](Linux-Commands/comptia-a+/linux-commands.md)
 
 __Navigation__
 
@@ -218,7 +218,6 @@ __Line Break__
 >## Network 
  
 __Acronym_
-
 
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
 

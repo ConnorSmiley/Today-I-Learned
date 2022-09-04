@@ -1,0 +1,20 @@
+ls
+- pwd
+- mv
+- cp
+- rm
+- chmod
+- chown
+- su/sudo
+- apt-get
+- yum
+- ip
+- df
+- grep
+- ps
+- man
+- top
+- find
+- dig
+- cat
+- nano
