@@ -1,13 +1,17 @@
 `ls` = list
 -`-a` = list all
+-`-l` = list in list format
+-`| more` = one page at a time
 
 `pwd` = print working directory
 
-`mv` = move dir
+`mv` = rename file
 
 `cp` = cp dir
 
 `rm` = rm dir
+-`-r` = remove directory
+
 
 `chmod` = change mod
 
@@ -15,27 +19,34 @@
 
 `su/sudo` = super user
 
-`apt-get` = 
+`apt-get` = install advance packaging tool
 
-`yum` = 
+`yum` = install packaging tool on linux
 
-`ip` = 
+`ip` = manage network interface [linux]
+-` address` = view ip address
+-` route` = view ip route 
 
-`df` = 
+`df` = disk free
+-`-h` = human readable sizes
 
-`grep` = 
+`grep` = find keywork in doc
 
-`ps` = 
+`ps` = view processes
+-`-e` = all process
+-`| more` = one page at a time
 
-`man` = 
+`man` = manual
 
-`top` = 
+`top` = view process by usage
 
-`find` = 
+`find . -name 'enterText.file'` = find
 
-`dig` = 
+`dig` = find IP address of website
 
-`cat` = 
+`cat` = links two files
+-`> fileName.file` = pipes two files into one file 
 
-`nano` = 
+
+`nano` = edit text
 

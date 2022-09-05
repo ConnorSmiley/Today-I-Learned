@@ -19,6 +19,8 @@
 
 -[Linux-Commands](#Linux-Commands)
 
+-[Linux-Features](#Linux-Features)
+
 -[LocalStorage](#LocalStorage)
 
 -[Mac](#Mac)
@@ -41,6 +43,8 @@
 
 -[ReduxToolKid](#ReduxToolKit)
 
+-[Security](#Security)
+
 -[Sublime-Text](#Sublime-Text)
 
 -[TailWindCSS](#TailWindCSS)
@@ -58,15 +62,13 @@
 -[ShortCutUpdates](#ShortCutUpdates)
 
 ***
+
 >## CSS
 
 __User Select None__
 ```css
 user-select: auto|none|text|all;
 ```
-
-
-
 
 
 
@@ -145,6 +147,11 @@ __Clear History__
 
 
 [Link to Linux Commands](Linux-Commands/comptia-a+/linux-commands.md)
+
+
+>## Linux-Features
+ 
+[Link to Linux Features](Linux-Features/Linus-Features.md)
 
 
 >## LocalStorage
@@ -320,6 +327,12 @@ export const ??? = (state) => state.???
 export const {} = $VAR$.actions
 export default $VAR$.reducer
 ```
+
+
+>## Security
+ 
+`ACL` - Access Control List 
+
 
 
 >## Sublime-Text
