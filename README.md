@@ -183,6 +183,11 @@ __Acronym_
 
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
 
+__Ports__
+
+-`67, 68` =  DHCP uses UDP ports 
+
+
 
 >## Nextjs
 __Install TW__  
