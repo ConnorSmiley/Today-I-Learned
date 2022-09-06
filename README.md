@@ -183,6 +183,7 @@ __Acronym_
 
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
 
+
 __Ports__
 
 -`53` = DNS
@@ -191,7 +192,86 @@ __Ports__
 
 -`110` = POP3 (post office protocol 3)
 
+-`1812` = RADIUS (authentication)
+
 -`3389` = RDP (remote desktop protocol)
+
+
+
+__Protocols__
+
+-`TACACS+` = Terminal Access Controller Access Control System (auth, authenticate, accounting)
+
+-`RADIUS` = Remote Authentication Dial-In User Service
+
+-`Kerberos` = network authentication protocol design
+
+-`Challenge-Handshake Authentication Protocol` = Authenticate user
+
+
+__Words__
+
+-`PXE` = Preboot eXecution environment. Allows remote workstation to boot remote
+
+-`UPnP` = Universal plugin and play
+
+-`MDM` = mobile device management
+
+-`DHCP` = protocol for IP address
+
+-`NAT` = network service provider
+
+
+-`MMC` = microsoft management console. Performance operations panel
+
+-`RDS` = remote desktop services
+
+-`UAC` = user account control. Prevent unauthorized installs
+
+-`PerfMon` = Performance monitoring
+
+
+__Backups__
+
+-`grandfather-father-son` = grandfather/monthly, father/weekly, son/daily
+
+-`3-2-1` = 3) primary backup & 2 copies. 2)save back to 2 different media. 1) one backup off-site
+
+-`Tower of Hanoi` = rotates backups to prevent wear
+
+-`FIFO Backup` = First in, first out. Overwrites the oldest drive
+
+-`Synthetic backup` = Merging past and earlier parts to create a backup
+
+-`Differential backup` = Create backup from lastest modified copy
+
+-`Incremental backup` = Creates copy of new files modified since the last backup.
+
+
+
+__Scripts__
+
+
+-`.vbs` = Visual basic. Used for administrative tasks
+
+-`.js` = javascript
+
+-`.py` = python
+
+-`.sh` = shell. Scripts for automating tasks
+
+
+__IP Addresses__
+
+-`10.0.0.0 - 10.255.255.255` = Class A private IP's
+
+-`172.16.0.0 - 172.31.255.255` = Class B private
+
+-`192.168.0.0 - 192.168.255.255` = Class C private
+
+-`169.254.0.0 - 169.254.255.255` = APIPA/link-local
+
+
 
 
 >## Nextjs
