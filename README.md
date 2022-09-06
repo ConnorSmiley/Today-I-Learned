@@ -185,8 +185,13 @@ __Acronym_
 
 __Ports__
 
--`67, 68` =  DHCP uses UDP ports 
+-`53` = DNS
 
+-`67, 68` = DHCP uses UDP ports 
+
+-`110` = POP3 (post office protocol 3)
+
+-`3389` = RDP (remote desktop protocol)
 
 
 >## Nextjs
