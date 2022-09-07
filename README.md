@@ -184,13 +184,41 @@ __Acronym_
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
 
 
+__Names__
+
+-`Subnet` = File Transfer Protocol. Not secure
+
+
+__Documents__
+
+-`Scope` = defines area, number, size or scale of change
+
+-`Purpose` = defines why the change/installation will occur
+
+-`Risk analysis` = Provides risk levels or why a change is needed
+
+-`Plan` = How the change will occur. (Who, what when, where why and how)
+
+
+
 __Ports__
+
+
+-`21` = File Transfer Protocol. Not secure
+
+-`22` = Secure FTP, uses firewall
+
+-`25` = Simple Mail Transfer protocol
 
 -`53` = DNS
 
--`67, 68` = DHCP uses UDP ports 
+-`67, 68` = DHCP uses UDP ports
+
+-`161` = Simple Network Management Protocol. Managing Network Connected Devices
 
 -`110` = POP3 (post office protocol 3)
+
+-`990` = FTPS. Secure
 
 -`1812` = RADIUS (authentication)
 
@@ -220,7 +248,6 @@ __Words__
 -`DHCP` = protocol for IP address
 
 -`NAT` = network service provider
-
 
 -`MMC` = microsoft management console. Performance operations panel
 
@@ -263,6 +290,7 @@ __Scripts__
 
 __IP Addresses__
 
+
 -`10.0.0.0 - 10.255.255.255` = Class A private IP's
 
 -`172.16.0.0 - 172.31.255.255` = Class B private
@@ -270,6 +298,26 @@ __IP Addresses__
 -`192.168.0.0 - 192.168.255.255` = Class C private
 
 -`169.254.0.0 - 169.254.255.255` = APIPA/link-local
+
+
+__File Systems__
+
+-`Fat32` = 32-bit file support for Windows, Mac and Linux
+
+-`UDF` = Universal Disk Format
+
+-`NTFS` = Windows 64-bit address space 
+
+-`CDFS` = CD File System
+
+
+_Network Attacks_
+
+-`Whaling` = Targeting high profile figures
+
+-`Spear Fishing` = Targets specific groups
+
+-`Vishing` = Voice and Fishing
 
 
 
