@@ -320,7 +320,7 @@ __Network Attacks__
 -`Vishing` = Voice and Fishing
 
 
-_Wireless Encryption_
+__Wireless Encryption__
 
 -`WPA2` = CCMP and CBC-MAC (Counter mode with cipher block chaining / Counter CBC-MAC protocol)
 
@@ -338,6 +338,28 @@ _Wireless Encryption_
 -Diffie-Hellman derived key exchange
 – Everyone uses different session keys, even with same PSK
 – An IEEE standard - the dragonfly handshake
+
+
+__Authentication Methods__
+
+-`RADIUS` = Remote Authentication Dial-In Service
+
+-`TACACS` = Terminal Access Controller Access-Control System
+-Common with CISCO
+
+-`KERBEROS` = Network Auth Protocol
+-Common with windows
+
+-`SSO` = Single Sign On
+
+-`MFA` = Multi Factor Authentication
+
+-`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
+
+
+__Distribution Denial of Service__
+
+-`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
 
 
 
