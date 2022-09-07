@@ -311,7 +311,7 @@ __File Systems__
 -`CDFS` = CD File System
 
 
-_Network Attacks_
+__Network Attacks__
 
 -`Whaling` = Targeting high profile figures
 
@@ -319,6 +319,23 @@ _Network Attacks_
 
 -`Vishing` = Voice and Fishing
 
+
+_Wireless Encryption_
+
+-`WPA2` = CCMP and CBC-MAC (Counter mode with cipher block chaining / Counter CBC-MAC protocol)
+
+-`WPA3` = GCMP, GMAC and SAE (Galois/Counter Mode Protocol)
+
+-`AES` = Advance Encryption Standard
+
+-`PSK` = Pre Shared Keys
+
+-`SAE` = Simultaneous Authentication of Equals
+- Diffie-Hellman derived key exchange
+– Includes mutual authentication
+– Creates a shared session key without sending key across network
+– No more four-way handshakes, no hashes, no brute force attacks
+– Adds perfect forward secrecy
 
 
 
