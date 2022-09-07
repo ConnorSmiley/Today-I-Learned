@@ -331,11 +331,12 @@ _Wireless Encryption_
 -`PSK` = Pre Shared Keys
 
 -`SAE` = Simultaneous Authentication of Equals
-- Diffie-Hellman derived key exchange
-– Includes mutual authentication
-– Creates a shared session key without sending key across network
-– No more four-way handshakes, no hashes, no brute force attacks
-– Adds perfect forward secrecy
+
+-Diffie-Hellman derived key exchange
+–Includes mutual authentication
+–Creates a shared session key without sending key across network
+–No more four-way handshakes, no hashes, no brute force attacks
+–Adds perfect forward secrecy
 
 
 
