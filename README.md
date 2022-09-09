@@ -340,6 +340,16 @@ __Wireless Encryption__
 – An IEEE standard - the dragonfly handshake
 
 
+__Network Security__
+
+-`On Path Network Attack` = aka Man in the middle
+
+-`SOE` = Standard Operation Environment
+
+
+
+
+
 __Authentication Methods__
 
 -`RADIUS` = Remote Authentication Dial-In Service
@@ -361,6 +371,10 @@ __Distribution Denial of Service__
 
 -`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
 
+
+__Windows Boot Errors__
+
+-`bootrec /rebuildbcd` = BCD / Boot Configuration Database
 
 
 >## Nextjs
