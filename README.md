@@ -376,6 +376,9 @@ __Windows Boot Errors__
 
 -`bootrec /rebuildbcd` = BCD / Boot Configuration Database
 
+-`SFC` = System File Checker
+-/scannow = begins system scan
+
 
 >## Nextjs
 __Install TW__  
