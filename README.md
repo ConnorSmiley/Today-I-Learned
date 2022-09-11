@@ -383,7 +383,11 @@ __Distribution Denial of Service__
 
 __Windows Boot Errors__
 
--`bootrec /rebuildbcd` = BCD / Boot Configuration Database
+-`bootrec /rebuildbcd` = BCD / Boot Configuration Database. Add missing files
+
+-`bootrec /fixboot` = fix boot sector
+
+-`bootrec /fixmbr` = fix master boot sector
 
 -`SFC` = System File Checker
 -/scannow = begins system scan
@@ -416,6 +420,10 @@ __Remote Desktop Protocol__
 -`RMM` = Remote Monitor Management
 
 -`MSRA` = Microsoft Remote Assistance
+
+
+__Wifi Protocol__
+
 
 
 >## Nextjs
