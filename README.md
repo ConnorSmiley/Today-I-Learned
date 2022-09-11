@@ -275,7 +275,6 @@ __Backups__
 -`Incremental backup` = Creates copy of new files modified since the last backup.
 
 
-
 __Scripts__
 
 
@@ -376,6 +375,14 @@ __Windows Boot Errors__
 
 -`SFC` = System File Checker
 -/scannow = begins system scan
+
+
+__Privacy & Licenses__
+
+-`PCI DSS` = Payment Card Industry Data Security Standard
+
+
+
 
 
 >## Nextjs
