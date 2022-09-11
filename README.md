@@ -381,7 +381,14 @@ __Privacy & Licenses__
 
 -`PCI DSS` = Payment Card Industry Data Security Standard
 
+-`PII` = Personally Identifiable Information
 
+-`GDPR` = General Data Protection Regulation
+-EU protection
+
+-`PHI` = Protected Health Information
+
+-`HIPAA` = Health Insurance Portability and Accountability of 1996  
 
 
 
