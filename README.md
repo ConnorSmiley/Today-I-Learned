@@ -206,7 +206,7 @@ __Ports__
 
 -`21` = File Transfer Protocol. Not secure
 
--`22` = Secure FTP, encrypted and uses firewall
+-`22` = Secure FTP, encrypted and uses firewall // SSH, SCP, SFTP
 
 -`23` = Secure FTP, acts like TelNet
 
@@ -216,9 +216,15 @@ __Ports__
 
 -`67, 68` = DHCP uses UDP ports
 
+-`139` = SMB
+
+-`143` = Internet Message Access Protocol
+
 -`161` = Simple Network Management Protocol. Managing Network Connected Devices
 
 -`110` = POP3 (post office protocol 3)
+
+-`445` = Server Message Block Protocol // Client Server Communication 
 
 -`990` = FTPS. Secure
 
@@ -272,9 +278,9 @@ __Backups__
 
 -`Synthetic backup` = Merging past and earlier parts to create a backup
 
--`Differential backup` = Create backup from lastest modified copy
+-`Differential backup` = Uses last modified and adds to last modified. Then merges with full backup
 
--`Incremental backup` = Creates copy of new files modified since the last backup.
+-`Incremental backup` = Makes new backup after every change, then adds many backups to the full backup
 
 
 __Scripts__
@@ -296,6 +302,18 @@ __Scripts__
 
 -`.sh` = shell. Scripts for automating tasks
 -Unix/Linux
+
+
+__Partitions__
+
+
+-`Primary Partitions` = Only 4 with MBR
+
+-`Extended Partitions` = Only 4 with MBR
+
+-`Swap Partitions` = Linux, can add extra Vmemory if needed
+
+-`Logical Partitions` = Can add to Extended Part to make 23
 
 
 
@@ -404,6 +422,12 @@ __Privacy & Licenses__
 
 -`PHI` = Protected Health Information
 
+-`PII` = Personal Identification Information
+
+-`IP` = Intellectual property
+
+-`CUI` = Controlled Unclassified Information
+
 -`HIPAA` = Health Insurance Portability and Accountability of 1996  
 
 
@@ -423,6 +447,16 @@ __Remote Desktop Protocol__
 
 
 __Wifi Protocol__
+
+-`WEP` = Wired Equivalent Privacy // Old
+
+-`WPA` = used for WLAN
+
+-`WPA2` = Microsoft Remote Assistance
+
+-`WPA3` = Uses preshared keys
+
+
 
 
 
