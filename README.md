@@ -277,18 +277,27 @@ __Backups__
 
 __Scripts__
 
+-`.bat` = Batch files
+-Windows file systems
+
+-`.ps1` = Windows powershell files
+-Windows file systems
+
+-`cmdlets` = command-lets
 
 -`.vbs` = Visual basic. Used for administrative tasks
+-Windows file systems
 
 -`.js` = javascript
 
 -`.py` = python
 
 -`.sh` = shell. Scripts for automating tasks
+-Unix/Linux
+
 
 
 __IP Addresses__
-
 
 -`10.0.0.0 - 10.255.255.255` = Class A private IP's
 
@@ -297,6 +306,7 @@ __IP Addresses__
 -`192.168.0.0 - 192.168.255.255` = Class C private
 
 -`169.254.0.0 - 169.254.255.255` = APIPA/link-local
+
 
 
 __File Systems__
