@@ -206,7 +206,9 @@ __Ports__
 
 -`21` = File Transfer Protocol. Not secure
 
--`22` = Secure FTP, uses firewall
+-`22` = Secure FTP, encrypted and uses firewall
+
+-`23` = Secure FTP, acts like TelNet
 
 -`25` = Simple Mail Transfer protocol
 
@@ -400,6 +402,20 @@ __Privacy & Licenses__
 
 -`HIPAA` = Health Insurance Portability and Accountability of 1996  
 
+
+__Remote Desktop Protocol__
+
+-`RDP` = Remote Desktop Protocol
+
+-`VNC` = Virtual Network Computing
+
+-`SSH` = Secure Shell
+
+-`MSP` = Managed Service Provider
+
+-`RMM` = Remote Monitor Management
+
+-`MSRA` = Microsoft Remote Assistance
 
 
 >## Nextjs
