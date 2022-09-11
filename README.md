@@ -216,13 +216,15 @@ __Ports__
 
 -`67, 68` = DHCP uses UDP ports
 
--`139` = SMB
+-`110` = POP3 (post office protocol 3)
+
+-`139` = Server Message Block
 
 -`143` = Internet Message Access Protocol
 
 -`161` = Simple Network Management Protocol. Managing Network Connected Devices
 
--`110` = POP3 (post office protocol 3)
+-`389` = Lightweight Directory Access Protocol // LDAP
 
 -`445` = Server Message Block Protocol // Client Server Communication 
 
@@ -264,6 +266,28 @@ __Words__
 -`UAC` = user account control. Prevent unauthorized installs
 
 -`PerfMon` = Performance monitoring
+
+-`COPE` = Company Owned/personally enabled
+
+-`CYOD` = Choose your own device
+
+
+__Install__
+
+-`Clean` = Fresh install
+
+-`Upgrade` = Overwrite current OS
+
+-`Unattended` = Large Company??
+
+-`Repair` = Repair OS, can change default settings
+
+-`In place Install` = Overwrite current OS
+
+-`Refresh` = re-installs OS
+
+
+
 
 
 __Backups__
