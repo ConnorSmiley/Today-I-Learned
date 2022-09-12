@@ -289,7 +289,6 @@ __Install__
 
 
 
-
 __Backups__
 
 -`grandfather-father-son` = grandfather/monthly, father/weekly, son/daily
@@ -356,6 +355,8 @@ __IP Addresses__
 __File Systems__
 
 -`Fat32` = 32-bit file support for Windows, Mac and Linux
+
+-`exFAT` = Both Mac and Microsoft supported
 
 -`UDF` = Universal Disk Format
 
@@ -468,6 +469,13 @@ __Remote Desktop Protocol__
 -`RMM` = Remote Monitor Management
 
 -`MSRA` = Microsoft Remote Assistance
+
+-`VNC` = Virtual network computing // screen share Mac and Linux
+
+-`RDP` = Remote Desktop Protocol
+
+-`TelNet` = Teletype Network. Clear text, no encrypt
+
 
 
 __Wifi Protocol__
