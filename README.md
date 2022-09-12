@@ -206,9 +206,9 @@ __Ports__
 
 -`21` = File Transfer Protocol. Not secure
 
--`22` = Secure FTP, encrypted and uses firewall // SSH, SCP, SFTP
+-`22` = SSH FTP, encrypted and uses firewall // SSH, SCP, SFTP
 
--`23` = Secure FTP, acts like TelNet
+-`23` = Telnet, unsecure
 
 -`25` = Simple Mail Transfer protocol
 
@@ -270,6 +270,34 @@ __Words__
 -`COPE` = Company Owned/personally enabled
 
 -`CYOD` = Choose your own device
+
+-`BSOD` = Blue screen of death
+
+-`POST` = Power on self test
+
+-`MSDS` = Material Safety Data Sheet
+
+
+
+
+
+__Malware Removal Steps__
+
+
+1. Investigate and verify malware symptoms
+
+2. Quarantine the infected systems
+
+3. Disable System Restore in Windows
+
+4. Remediate the infected systems, update anti-malware software, scan the system, and use removal techniques (e.g., safe mode, pre-installation environment)
+
+5. Schedule scans and run updates
+
+6. Enable System Restore and create a restore point in Windows
+
+7. Educate the end user
+
 
 
 __Install__
@@ -344,11 +372,13 @@ __IP Addresses__
 
 -`10.0.0.0 - 10.255.255.255` = Class A private IP's
 
+-`127.0.0.1` = Loopback for IPv4
+
 -`172.16.0.0 - 172.31.255.255` = Class B private
 
 -`192.168.0.0 - 192.168.255.255` = Class C private
 
--`169.254.0.0 - 169.254.255.255` = APIPA/link-local
+-`169.254.0.0 - 169.254.255.255` = Automatic Private IP Addressing/link-local
 
 
 
@@ -372,6 +402,14 @@ __Network Attacks__
 -`Spear Fishing` = Targets specific groups
 
 -`Vishing` = Voice and Fishing
+
+-`XSS` = Cross Site Scripting
+
+-`CSRF` = Cross Site Request Forgery. User performs actions
+
+-`Root Kit` = Controls computer without detection
+
+
 
 
 __Wireless Encryption__
@@ -418,6 +456,11 @@ __Authentication Methods__
 
 -`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
 
+-`SAE` = Simulation Authentication Equals
+
+-`x.509` = cert for SSL/TLS
+
+
 
 __Distribution Denial of Service__
 
@@ -447,8 +490,6 @@ __Privacy & Licenses__
 
 -`PHI` = Protected Health Information
 
--`PII` = Personal Identification Information
-
 -`IP` = Intellectual property
 
 -`CUI` = Controlled Unclassified Information
@@ -472,7 +513,7 @@ __Remote Desktop Protocol__
 
 -`VNC` = Virtual network computing // screen share Mac and Linux
 
--`RDP` = Remote Desktop Protocol
+-`RDP` = Remote Desktop Protocol 
 
 -`TelNet` = Teletype Network. Clear text, no encrypt
 
@@ -487,6 +528,12 @@ __Wifi Protocol__
 -`WPA2` = Microsoft Remote Assistance
 
 -`WPA3` = Uses preshared keys
+
+
+__Documentation__
+
+-`Knowledge based articals` = KB
+
 
 
 
