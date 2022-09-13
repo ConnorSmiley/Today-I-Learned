@@ -246,6 +246,7 @@ __Protocols__
 -`Challenge-Handshake Authentication Protocol` = Authenticate user
 
 
+
 __Words__
 
 -`PXE` = Preboot eXecution environment. Allows remote workstation to boot remote
@@ -556,6 +557,56 @@ __Beeps__
 
 
 
+__IP Addresses__
+
+-`0.0.0.0 - 126.255.255.255` = Class A (public)
+
+-`10.0.0.0 - 10.255.255.255` = Class A (private)
+
+-`10.189.1.0` = Class A (private) example
+
+-`123.15.1.0` = Class A (public) example
+
+-`127.0.0.1` = Loopback
+
+-`128.0.0.0 - 191.255.255.255` = Class B (public)
+
+-`129.50.6.1` = Class B (public) example
+
+-`169.254.1.1` = APIPA2
+
+-`169.254.30.21` = APIPA
+
+-`172.16.0.0 - 172.31.255.255` = Class B (private)
+
+-`172.30.5.12` = Class B (private) example
+
+-`192.0.0.0 - 223.255.255.255` = Class C (public)
+
+-`192.15.1.0` = Class C (public) example
+
+-`192.168.15.2/32` = Class C (private, CIDR format)
+
+-`192.168.0.0 - 192.168.255.255` = Class C (private)
+
+-`240.0.0.0 - 254.255.255.255` = Class E (public, reserved)
+
+-`224.0.0.0 - 239.255.255` = Class D (public, multicast)
+
+
+-`fe80::/10` = Link Unique Local Unicast
+
+-`::1/128` = Loopback6
+
+-`2000::/3` = Global Unicast
+
+-`fc00::/7` = Unique Local Unicast
+
+-`ff00::/8` = Multicast
+
+
+
+
 >## Nextjs
 __Install TW__  
 -`npm install -D tailwindcss postcss autoprefixer`  
@@ -854,6 +905,62 @@ $End$
 
 ## Icons
 ➕❌💥✨❓❕🚫✖️➖&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
