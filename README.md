@@ -178,7 +178,6 @@ __Line Break__
 
 
 >## Network 
- 
 __Acronym_
 
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
@@ -535,7 +534,25 @@ __Documentation__
 -`Knowledge based articals` = KB
 
 
+__Beeps__
 
+-`1 long beep, 1 short beep` = Bad Motherboard
+
+-`1 long beep, 3 short beep` = Video CGA Display
+
+-`1 long beep, 2 short beep` = Video EGA Display
+
+-`No Beep` = Power supply
+
+-`1 long beep, 8 short beep` = Bad Video Card
+
+-`7 short beeps` = Bad Cpu
+
+-`1 short beeps` = POST passed
+
+-`3 short beeps` = Bad Ram
+
+-`3 long beeps` = Bad Keyboard
 
 
 
