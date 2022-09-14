@@ -529,6 +529,9 @@ __Wifi Protocol__
 
 -`WPA3` = Uses preshared keys
 
+-`WINS` = Windows Internet Name Service
+
+
 
 __Documentation__
 
