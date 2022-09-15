@@ -203,7 +203,7 @@ __Documents__
 __Ports__
 
 
--`21` = File Transfer Protocol. Not secure
+-`20, 21` = File Transfer Protocol. Not secure
 
 -`22` = SSH FTP, encrypted and uses firewall // SSH, SCP, SFTP
 
@@ -215,6 +215,8 @@ __Ports__
 
 -`67, 68` = DHCP uses UDP ports
 
+-`80` = HTTP
+
 -`110` = POP3 (post office protocol 3)
 
 -`139` = Server Message Block
@@ -222,6 +224,8 @@ __Ports__
 -`143` = Internet Message Access Protocol
 
 -`161` = Simple Network Management Protocol. Managing Network Connected Devices
+
+-`162` = SNMP // Simple Network Management Protocol
 
 -`389` = Lightweight Directory Access Protocol // LDAP
 
@@ -244,6 +248,13 @@ __Protocols__
 -`Kerberos` = network authentication protocol design
 
 -`Challenge-Handshake Authentication Protocol` = Authenticate user
+
+
+__Phone__
+
+-`PRI` = Preferred Roaming Index
+
+-`PRL` = Preferred Roaming List
 
 
 
@@ -355,14 +366,15 @@ __Scripts__
 -Unix/Linux
 
 
-__Partitions__
 
+
+__Partitions__
 
 -`Primary Partitions` = Only 4 with MBR
 
 -`Extended Partitions` = Only 4 with MBR
 
--`Swap Partitions` = Linux, can add extra Vmemory if needed
+-`Swap Partitions` = Linux, can add extra V-memory if needed
 
 -`Logical Partitions` = Can add to Extended Part to make 23
 
