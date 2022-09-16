@@ -620,6 +620,20 @@ __IP Addresses__
 -`ff00::/8` = Multicast
 
 
+__Comptia Troubleshooting__
+
+-Identify the problem
+
+-Establish a theory on probable cause
+
+-Test theory
+
+-Create plan of action to resolve the problem
+
+-Verify and implement preventative measures
+
+-Document findings
+
 
 
 >## Nextjs
