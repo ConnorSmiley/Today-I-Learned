@@ -288,6 +288,11 @@ __Words__
 
 -`MSDS` = Material Safety Data Sheet
 
+-`SOP` = Standard Operating Proceedure
+
+-`SOW` = statement of work
+
+-`MSDS` = material safety data sheet
 
 
 
@@ -633,6 +638,19 @@ __Comptia Troubleshooting__
 -Verify and implement preventative measures
 
 -Document findings
+
+
+__Cables__
+
+-`802.3af` = POE // 15.4 w over 100m
+
+-`802.3at` = POE // 25w over 100m
+
+-`802.11s` = wireless
+
+-`802.11ac` = wireless
+
+
 
 
 
