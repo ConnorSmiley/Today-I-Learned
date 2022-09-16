@@ -213,7 +213,7 @@ __Ports__
 
 -`53` = DNS
 
--`67, 68` = DHCP uses UDP ports
+-`67, 68` = DHCP uses UDP ports // Dynamic hosting protocol
 
 -`80` = HTTP
 
@@ -384,7 +384,7 @@ __IP Addresses__
 
 -`10.0.0.0 - 10.255.255.255` = Class A private IP's
 
--`127.0.0.1` = Loopback for IPv4
+-`127.0.0.1` = Loopback for IPv4 //Local-host
 
 -`172.16.0.0 - 172.31.255.255` = Class B private
 
