@@ -294,6 +294,16 @@ __Words__
 
 -`MSDS` = material safety data sheet
 
+-`TPM` = Trust Platform Module
+
+-`PAM` = Pluggable Authentication Module
+
+-`FDE` = Full disk encrypt
+
+-`AES` = Advance Encryption System
+
+
+
 
 
 
@@ -649,6 +659,13 @@ __Cables__
 -`802.11s` = wireless
 
 -`802.11ac` = wireless
+
+
+__Ethernet Cables__
+
+-`T568A` = 
+
+-`T568B` =
 
 
 
