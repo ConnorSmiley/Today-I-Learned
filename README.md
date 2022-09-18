@@ -658,7 +658,10 @@ __Cables__
 
 -`802.11s` = wireless
 
--`802.11ac` = wireless
+-`802.11ac` = 2.4ghz // 3.4 gbps
+
+-`802.11ax` = 2.4ghz // 5ghz
+
 
 
 __Ethernet Cables__
