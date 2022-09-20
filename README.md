@@ -229,6 +229,8 @@ __Ports__
 
 -`389` = Lightweight Directory Access Protocol // LDAP
 
+-`443` = SSH
+
 -`445` = Server Message Block Protocol // Client Server Communication 
 
 -`990` = FTPS. Secure
