@@ -247,7 +247,7 @@ __Protocols__
 
 -`RADIUS` = Remote Authentication Dial-In User Service
 
--`Kerberos` = network authentication protocol design
+-`Kerberos` = network authentication protocol design // windows
 
 -`Challenge-Handshake Authentication Protocol` = Authenticate user
 
