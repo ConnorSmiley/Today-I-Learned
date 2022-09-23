@@ -183,11 +183,6 @@ __Acronym_
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
 
 
-__Names__
-
--`Subnet` = File Transfer Protocol. Not secure
-
-
 __Documents__
 
 -`Scope` = defines area, number, size or scale of change
@@ -209,7 +204,7 @@ __Ports__
 
 -`23` = Telnet, unsecure
 
--`25` = Simple Mail Transfer protocol
+-`25` = Simple Mail Transfer protocol, only for sending
 
 -`53` = DNS
 
