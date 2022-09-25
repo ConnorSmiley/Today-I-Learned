@@ -405,6 +405,15 @@ __IP Addresses__
 -`169.254.0.0 - 169.254.255.255` = Automatic Private IP Addressing/link-local
 
 
+__802.11__
+
+-`a` = 
+-`b` = 
+-`g` = 
+-`n (WiFi 4)` = 
+-`ac (WiFi 5)` = 
+-`ax (WiFi 6)` =
+
 
 __File Systems__
 
