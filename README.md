@@ -406,11 +406,11 @@ __IP Addresses__
 
 __802.11__
 
--`a` = 
--`b` = 
--`g` = 
--`n (WiFi 4)` = 
--`ac (WiFi 5)` = 
+-`a` =
+-`b` =
+-`g` =
+-`n (WiFi 4)` =
+-`ac (WiFi 5)` =
 -`ax (WiFi 6)` =
 
 
