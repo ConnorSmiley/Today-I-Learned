@@ -443,7 +443,6 @@ __Network Attacks__
 
 
 
-
 __Wireless Encryption__
 
 -`WPA2` = CCMP and CBC-MAC (Counter mode with cipher block chaining / Counter CBC-MAC protocol)
