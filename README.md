@@ -693,7 +693,6 @@ __Ethernet Cables__
 
 
 
-
 >## Nextjs
 __Install TW__  
 -`npm install -D tailwindcss postcss autoprefixer`  
