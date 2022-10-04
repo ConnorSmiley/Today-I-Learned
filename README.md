@@ -530,6 +530,7 @@ __Privacy & Licenses__
 -`HIPAA` = Health Insurance Portability and Accountability of 1996  
 
 
+
 __Remote Desktop Protocol__
 
 -`RDP` = Remote Desktop Protocol
