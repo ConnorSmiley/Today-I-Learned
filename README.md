@@ -658,6 +658,7 @@ __Comptia Troubleshooting__
 -Document findings
 
 
+
 __Cables__
 
 -`802.3af` = POE // 15.4 w over 100m
