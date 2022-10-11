@@ -677,6 +677,7 @@ __Cables__
 
 
 
+
 __Wifi__
 
 -`802.11a` = 5 ghz - 54 mbit/s | 54 mbit/s | 20 MHz
@@ -690,6 +691,8 @@ __Wifi__
 -`802.11ac` = 5 ghz - 8x DL MU-MIMO 867 mbit/s | 6.9 gbit/s | 20, 40, 80+80, 160 MHz
 
 -`802.11ax` = 5 / 2.4 ghz - 8x DL & UL MU-MIMO 1,201 mbit/s | 9.6 gbit/s | OFDMA
+
+-`802.11q` = 
 
 
 
