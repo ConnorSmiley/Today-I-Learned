@@ -339,7 +339,6 @@ __Install__
 
 
 
-
 __Backups__
 
 -`grandfather-father-son` = grandfather/monthly, father/weekly, son/daily
@@ -376,7 +375,6 @@ __Scripts__
 
 -`.sh` = shell. Scripts for automating tasks
 -Unix/Linux
-
 
 
 
@@ -634,7 +632,6 @@ __IP Addresses__
 
 
 
-
 -`fe80::/10` = Link Unique Local Unicast
 
 -`::1/128` = Loopback6
@@ -644,6 +641,7 @@ __IP Addresses__
 -`fc00::/7` = Unique Local Unicast
 
 -`ff00::/8` = Multicast
+
 
 
 
@@ -718,6 +716,22 @@ __Ethernet Cables__
 -green
 -brown/white
 -brown
+
+__Link Aggregation__
+IEEE 802.3ad = combines multiple connections to one connection
+
+
+__POE__
+802.3af = 15.4 watts
+802.1x =
+
+
+__POE+__
+802.at = 25.5 watts
+
+
+__Spanning Tree Protocol__
+802.1d = 
 
 
 
