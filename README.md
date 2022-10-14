@@ -731,7 +731,7 @@ __POE+__
 
 
 __Spanning Tree Protocol__
-802.1d = 
+802.1d = prevents switching loops
 
 
 
