@@ -238,9 +238,9 @@ __Ports__
 
 __Protocols__
 
--`TACACS+` = Terminal Access Controller Access Control System (auth, authenticate, accounting)
+-`TACACS+` = Terminal Access Controller Access Control System (auth, authenticate, accounting) // Cisco
 
--`RADIUS` = Remote Authentication Dial-In User Service
+-`RADIUS` = Remote Authentication Dial-In User Service 
 
 -`Kerberos` = network authentication protocol design // windows
 
