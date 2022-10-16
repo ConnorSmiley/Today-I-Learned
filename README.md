@@ -733,6 +733,15 @@ __Spanning Tree Protocol__
 802.1d = prevents switching loops
 
 
+__Osi Model___
+7. Application layer
+6. Presentation layer
+5. Session layer
+4. Transport layer
+3. Network layer
+2. Data link layer
+1. Physical layer
+
 
 
 >## Nextjs
