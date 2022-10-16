@@ -197,7 +197,6 @@ __Documents__
 
 __Ports__
 
-
 -`20, 21` = File Transfer Protocol. Not secure
 
 -`22` = SSH FTP, encrypted and uses firewall // SSH, SCP, SFTP
