@@ -1,4 +1,4 @@
-CIDR | SUBnet | IP's
+CIDR | SubNet | IP's
 
 /30 | 64 | 4
 /29 | 32 | 8
@@ -18,7 +18,7 @@ CIDR | SUBnet | IP's
 
 
 
-CIDR | SUBnet | IP's
+CIDR | SubNet | IP's
 
 /24 | 1 | 256
 /25 | 2 | 128
