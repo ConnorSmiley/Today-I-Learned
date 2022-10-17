@@ -29,6 +29,8 @@
 
 -[Network](#Network)
 
+-[Cidr-Block-Notation](#Cidr-Block-Notation)
+
 -[Nextjs](#Nextjs)
 
 -[Postgresql](#Postgresql)
@@ -739,7 +741,7 @@ __Osi Model___
 
 >## Cidr Block Notation
 
-[Cidr Block Notation](cird/cird.md)
+[Cidr-Block-Notation](cird/cird.md)
 
 
 
@@ -759,6 +761,7 @@ __Start / Stop server__
 __Show Timeline__  
 -` \ `
 
+
 >## React
 __Slice and Map__
 ```javascript
@@ -768,6 +771,7 @@ array = []
  return <Component>{x}</Component>
 })}
 ```
+
 
 __KeyStroke Text__
 ```javascript
