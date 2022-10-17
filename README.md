@@ -145,7 +145,6 @@ __Clear History__
 
 >## Linux-Commands
 
-
 [Link to Linux Commands](Linux-Commands/comptia-a+/linux-commands.md)
 
 
@@ -298,7 +297,6 @@ __Words__
 -`FDE` = Full disk encrypt
 
 -`AES` = Advance Encryption System
-
 
 
 
@@ -642,8 +640,6 @@ __IP Addresses__
 -`ff00::/8` = Multicast
 
 
-
-
 __Comptia Troubleshooting__
 
 -Identify the problem
@@ -659,7 +655,6 @@ __Comptia Troubleshooting__
 -Document findings
 
 
-
 __Cables__
 
 -`802.3af` = POE // 15.4 w over 100m
@@ -671,7 +666,6 @@ __Cables__
 -`802.11ac` = 2.4ghz // 3.4 gbps
 
 -`802.11ax` = 2.4ghz // 5ghz
-
 
 
 
@@ -741,6 +735,12 @@ __Osi Model___
 3. Network layer
 2. Data link layer
 1. Physical layer
+
+
+>## Cidr Block Notation
+
+[Cidr Block Notation](cird/cird.md)
+
 
 
 
