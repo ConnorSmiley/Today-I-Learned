@@ -745,7 +745,6 @@ __Osi Model___
 
 
 
-
 >## Nextjs
 __Install TW__  
 -`npm install -D tailwindcss postcss autoprefixer`  
