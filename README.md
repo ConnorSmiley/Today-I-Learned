@@ -232,6 +232,8 @@ __Ports__
 
 -`1812` = RADIUS (authentication)
 
+-`3306` = MySQL
+
 -`3389` = RDP (remote desktop protocol)
 
 
