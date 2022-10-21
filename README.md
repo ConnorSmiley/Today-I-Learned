@@ -230,6 +230,10 @@ __Ports__
 
 -`990` = FTPS. Secure
 
+-`1433` = Microsoft SQL
+
+-`1521` = SQLnet
+
 -`1812` = RADIUS (authentication)
 
 -`3306` = MySQL

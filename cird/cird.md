@@ -30,3 +30,35 @@ CIDR | SubNet | IP's
 /31 |128| 2
 /32 |256| 1
 
+
+
+
+Error Codes
+0 - emergency 
+1 - alert, corrected soon
+2 - critical condition
+3 - error condition
+4 - warning
+5 - notice condition
+6 - information condition
+7 - debugging
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
