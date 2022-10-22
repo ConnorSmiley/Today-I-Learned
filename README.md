@@ -228,7 +228,13 @@ __Ports__
 
 -`445` = Server Message Block Protocol // Client Server Communication 
 
+-`636` = LDAP-ssh
+
 -`990` = FTPS. Secure
+
+-`993` = IMAP-ssh
+
+-`995` = POP3-ssh
 
 -`1433` = Microsoft SQL
 
