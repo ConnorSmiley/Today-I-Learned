@@ -247,6 +247,12 @@ __Ports__
 -`3389` = RDP (remote desktop protocol)
 
 
+2-63
+63-127
+127-191
+193-255
+
+
 
 __Protocols__
 
@@ -750,6 +756,16 @@ __Osi Model___
 3. Network layer
 2. Data link layer
 1. Physical layer
+
+
+__VLAN__
+-`802.1af` - Power over ethernet
+-`802.1d` - spanning tree protocol
+-`802.1x` - Network authentication protocol
+-`802.1q` - Multi switchs for communication
+
+
+
 
 
 >## Cidr Block Notation
