@@ -246,11 +246,10 @@ __Ports__
 
 -`3389` = RDP (remote desktop protocol)
 
+-`5060 / 5061` = Session Initiation Protocol
 
-2-63
-63-127
-127-191
-193-255
+
+
 
 
 
@@ -423,11 +422,11 @@ __IP Addresses__
 
 __802.11__
 
--`a` =
--`b` =
--`g` =
+-`a` = 5ghz
+-`b` = 2.4ghz
+-`g` = 2.4ghz
 -`n (WiFi 4)` =
--`ac (WiFi 5)` =
+-`ac (WiFi 5)` = 2.4/5ghz
 -`ax (WiFi 6)` =
 
 
@@ -649,7 +648,6 @@ __IP Addresses__
 -`224.0.0.0 - 239.255.255` = Class D (public, multicast)
 
 
-
 -`fe80::/10` = Link Unique Local Unicast
 
 -`::1/128` = Loopback6
@@ -731,6 +729,7 @@ __Ethernet Cables__
 -brown/white
 -brown
 
+
 __Link Aggregation__
 IEEE 802.3ad = combines multiple connections to one connection
 
@@ -762,7 +761,21 @@ __VLAN__
 -`802.1af` - Power over ethernet
 -`802.1d` - spanning tree protocol
 -`802.1x` - Network authentication protocol
--`802.1q` - Multi switchs for communication
+-`802.1q` - Multi switches for communication
+
+
+
+
+__Severity Level Range__
+
+-`0` - Emergency
+-`1` - Immediately
+-`2` - Critical Condition
+-`3` - Error Condition
+-`4` - Warning Conditions
+-`5` - Unusual Conditions
+-`6` - Normal Operating Conditions
+-`7` - Debugging
 
 
 
