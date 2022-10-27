@@ -477,6 +477,23 @@ __Protocols__
 -`RIPv2` - classless, distance vector routing protocol that will include the subnet mask with the network addresses 
 
 
+__APIPA__
+
+-`169.254.0.1 - 169.254.255.254` - Range
+
+-`169.254.1.0 - 169.254.254.255` - Range
+
+
+__Private IP__
+
+-`10.0.0.0 - 10.255.255.255` - Range
+
+-`172.16.0.0 - 172.31.255.255` - Range
+
+-`192.168.0.0 - 192.168.255.255` - Range
+
+
+
 
 __Ports__
 
