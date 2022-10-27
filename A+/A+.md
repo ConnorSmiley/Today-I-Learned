@@ -299,7 +299,6 @@ all people seem to need data processing
 
 
 
-
 File Transfer Protocol (FTP) 20/21
 • Secure Shell (SSH) 22
 • Secure File Transfer Protocol (SFTP) 22
