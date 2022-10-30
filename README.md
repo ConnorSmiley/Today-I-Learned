@@ -385,7 +385,6 @@ __Ethernet Cables__
 -brown/white
 -brown
 
-
 -`T568B` =
 -orange/white
 -orange
@@ -493,8 +492,6 @@ __Private IP__
 -`192.168.0.0 - 192.168.255.255` - Range
 
 
-
-
 __Ports__
 
 -`20, 21` = File Transfer Protocol. Not secure
@@ -548,6 +545,7 @@ __Ports__
 -`5060 / 5061` = Session Initiation Protocol
 
 
+Classful vs Classless ipv4 ??
 
 
 >## Cidr Block Notation
