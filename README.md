@@ -81,6 +81,7 @@ user-select: auto|none|text|all;
 __Disable Google Helper__  
 -`chrome://settings/content/unsandboxedPlugins`
 
+
 >## Dev-Tools
 __Copy & Paste__
 ```javascript
