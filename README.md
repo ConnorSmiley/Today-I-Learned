@@ -241,7 +241,7 @@ __Authentication Methods__
 
 -`SSO` = Single Sign On
 
--`MFA` = Multi Factor Authentication
+-`MFA` = Multi-Factor Authentication
 
 -`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
 
