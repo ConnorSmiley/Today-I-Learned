@@ -63,6 +63,7 @@
 
 -[ShortCutUpdates](#ShortCutUpdates)
 
+
 ***
 
 >## CSS
@@ -73,13 +74,13 @@ user-select: auto|none|text|all;
 ```
 
 
-
 >## Cookies
 
 
 >## Chrome
 __Disable Google Helper__  
 -`chrome://settings/content/unsandboxedPlugins`
+
 
 >## Dev-Tools
 __Copy & Paste__
@@ -240,7 +241,7 @@ __Authentication Methods__
 
 -`SSO` = Single Sign On
 
--`MFA` = Multi Factor Authentication
+-`MFA` = Multi-Factor Authentication
 
 -`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
 
