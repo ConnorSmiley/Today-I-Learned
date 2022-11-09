@@ -370,7 +370,7 @@ __Wifi__
 
 -`802.11ax` = 5 / 2.4 ghz - 8x DL & UL MU-MIMO 1,201 mbit/s | 9.6 gbit/s | OFDMA
 
--`802.11q` = 
+-`802.11q` = Standard protocol for trunking
 
 
 
@@ -450,6 +450,8 @@ __IEEE Standard__
 
 -`802.3af` - POE
 
+-`802.3at` - POE
+
 -`802.3d` - Spanning Tree Protocol
 
 -`802.3x` - Network Authentication Protocol / Radius
@@ -475,6 +477,8 @@ __Protocols__
 -`OSPF` - Open Shortest Path First / Interior
 
 -`RIPv2` - classless, distance vector routing protocol that will include the subnet mask with the network addresses 
+
+-`LACP` - Link Aggregation Control Protocol. Will increase bandwidth between switches
 
 
 __APIPA__
@@ -547,6 +551,20 @@ __Ports__
 
 
 Classful vs Classless ipv4 ??
+
+
+
+_WLAN Concepts_
+
+-`IBSS` = Independent Basic Service Set 
+
+-`BSS` = Basic Service Set
+
+-`ESS` = Extended Service Set
+
+
+
+
 
 
 >## Cidr Block Notation
