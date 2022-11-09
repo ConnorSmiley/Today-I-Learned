@@ -570,6 +570,21 @@ _WLAN Concepts_
 -`ESS` = Extended Service Set
 
 
+_Encryption Basics_
+
+-`PSK` = Pre-Shared key
+
+-`PKI` = Public Key Infrastructure
+
+-`Kerberos` = Uses TCP & UDP - port 88
+-Key Distribution Center as main component
+-Has two parts - AS (authentication Server) & TGS (Ticket Granting Service)
+
+
+_Encryption Basics_
+
+-`SSID` = Service Set Identifier
+
 
 
 
