@@ -416,11 +416,18 @@ __Spanning Tree Protocol__
 
 __Osi Model___
 7. Application layer
+
 6. Presentation layer
+
 5. Session layer
+
 4. Transport layer
+
 3. Network layer
+-IPsec
+
 2. Data link layer
+
 1. Physical layer
 
 
