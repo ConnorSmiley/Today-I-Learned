@@ -416,19 +416,29 @@ __Spanning Tree Protocol__
 
 __Osi Model___
 7. Application layer
+-Protocols and Requests
 
 6. Presentation layer
+-Encrypting between Networks
 
 5. Session layer
+-Setups communication channel
 
 4. Transport layer
+-TCP / UDP
+-Sends packets of information
 
 3. Network layer
 -IPsec
+-Routers
+-ICMP
 
 2. Data link layer
+-Switches and bridges
+-Sending / Receiving
 
 1. Physical layer
+-Physical and Cables
 
 
 __VLAN__
