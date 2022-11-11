@@ -607,6 +607,8 @@ _CSMA_
 -If RST is clear, then a (CTS) clear to send packet is sent
 -Better for lower speeds and lower throughput
 -Not used if higher chance of data collision
+-OFDM = Multi carrier signal channels // prevents lose of attenuation 
+-DSSS = Spread spectrum tech
 
 
 
