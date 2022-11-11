@@ -597,6 +597,20 @@ _Encryption Basics_
 
 
 
+_CSMA_
+
+-`CSMA/CD` = Carrier Sense Multiple Access w/ Collision Detection
+-Better for high speed and thruoughput networks // 802.3
+
+-`CSMA/CA` = Carrier Sense Multiple Access w/ Collision Avoidance 
+-Uses RST (request to send) packets
+-If RST is clear, then a (CTS) clear to send packet is sent
+-Better for lower speeds and lower throughput
+-Not used if higher chance of data collision
+
+
+
+
 
 
 >## Cidr Block Notation
