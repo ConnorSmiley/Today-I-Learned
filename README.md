@@ -612,6 +612,17 @@ _CSMA_
 
 
 
+_Documents_
+
+-`MOU` = Memorandum of Understanding
+
+-`SOW` = Statement of work
+
+-`MLA` = Master Licenses agreement
+
+-`SLA` = Service Level Agreement
+
+
 
 
 
