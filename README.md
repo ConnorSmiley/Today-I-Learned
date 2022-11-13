@@ -188,33 +188,23 @@ __Acronym_
 __Protocols__
 
 -`TACACS+` = Terminal Access Controller Access Control System (auth, authenticate, accounting) // Cisco
-
 -`RADIUS` = Remote Authentication Dial-In User Service 
-
 -`Kerberos` = network authentication protocol design // windows
-
 -`Challenge-Handshake Authentication Protocol` = Authenticate user
-
 
 
 __Phone__
 
 -`PRI` = Preferred Roaming Index
-
 -`PRL` = Preferred Roaming List
-
 
 
 __IP Addresses__
 
 -`10.0.0.0 - 10.255.255.255` = Class A private IP's
-
 -`127.0.0.1` = Loopback for IPv4 //Local-host
-
 -`172.16.0.0 - 172.31.255.255` = Class B private
-
 -`192.168.0.0 - 192.168.255.255` = Class C private
-
 -`169.254.0.0 - 169.254.255.255` = Automatic Private IP Addressing/link-local
 
 
@@ -228,47 +218,30 @@ __802.11__
 -`ax (WiFi 6)` =
 
 
-
 __Authentication Methods__
 
 -`RADIUS` = Remote Authentication Dial-In Service
-
 -`TACACS` = Terminal Access Controller Access-Control System
 -Common with CISCO
-
 -`KERBEROS` = Network Auth Protocol
 -Common with windows
-
 -`SSO` = Single Sign On
-
 -`MFA` = Multi-Factor Authentication
-
 -`UEFI` = Unified Extensible Firmware Interface (replaces BIOS)
-
 -`SAE` = Simulation Authentication Equals
-
 -`x.509` = cert for SSL/TLS
-
 
 
 __Remote Desktop Protocol__
 
 -`RDP` = Remote Desktop Protocol
-
 -`VNC` = Virtual Network Computing
-
 -`SSH` = Secure Shell
-
 -`MSP` = Managed Service Provider
-
 -`RMM` = Remote Monitor Management
-
 -`MSRA` = Microsoft Remote Assistance
-
 -`VNC` = Virtual network computing // screen share Mac and Linux
-
 -`RDP` = Remote Desktop Protocol 
-
 -`TelNet` = Teletype Network. Clear text, no encrypt
 
 
@@ -276,13 +249,9 @@ __Remote Desktop Protocol__
 __Wifi Protocol__
 
 -`WEP` = Wired Equivalent Privacy // Old
-
 -`WPA` = used for WLAN
-
 -`WPA2` = Microsoft Remote Assistance
-
 -`WPA3` = Uses preshared keys
-
 -`WINS` = Windows Internet Name Service
 
 
@@ -296,82 +265,48 @@ __Documentation__
 __IP Addresses__
 
 -`0.0.0.0 - 126.255.255.255` = Class A (public)
-
 -`10.0.0.0 - 10.255.255.255` = Class A (private)
-
 -`10.189.1.0` = Class A (private) example
-
 -`123.15.1.0` = Class A (public) example
-
 -`127.0.0.1` = Loopback
-
 -`128.0.0.0 - 191.255.255.255` = Class B (public)
-
 -`129.50.6.1` = Class B (public) example
-
 -`169.254.1.1` = APIPA2
-
 -`169.254.30.21` = APIPA
-
 -`172.16.0.0 - 172.31.255.255` = Class B (private)
-
 -`172.30.5.12` = Class B (private) example
-
 -`192.0.0.0 - 223.255.255.255` = Class C (public)
-
 -`192.15.1.0` = Class C (public) example
-
 -`192.168.15.2/32` = Class C (private, CIDR format)
-
 -`192.168.0.0 - 192.168.255.255` = Class C (private)
-
 -`240.0.0.0 - 254.255.255.255` = Class E (public, reserved)
-
 -`224.0.0.0 - 239.255.255` = Class D (public, multicast)
 
-
 -`fe80::/10` = Link Unique Local Unicast
-
 -`::1/128` = Loopback6
-
 -`2000::/3` = Global Unicast
-
 -`fc00::/7` = Unique Local Unicast
-
 -`ff00::/8` = Multicast
-
 
 
 __Cables__
 
 -`802.3af` = POE // 15.4 w over 100m
-
 -`802.3at` = POE // 25w over 100m
-
 -`802.11s` = wireless
-
 -`802.11ac` = 2.4ghz // 3.4 gbps
-
 -`802.11ax` = 2.4ghz // 5ghz
-
 
 
 __Wifi__
 
 -`802.11a` = 5 ghz - 54 mbit/s | 54 mbit/s | 20 MHz
-
 -`802.11b` = 2.4 ghz - 11 mbit/s | 11 mbit/s | 24 MHz
-
 -`802.11g` = 2.4 ghz - 54 mbit/s | 54 mbit/s | 20 MHz
-
 -`802.11n` = 5 / 2.4 ghz - 4xMIMO 150 mbit/s | 600 mbit/s | 20, 40, 80 MHz
-
 -`802.11ac` = 5 ghz - 8x DL MU-MIMO 867 mbit/s | 6.9 gbit/s | 20, 40, 80+80, 160 MHz
-
 -`802.11ax` = 5 / 2.4 ghz - 8x DL & UL MU-MIMO 1,201 mbit/s | 9.6 gbit/s | OFDMA
-
 -`802.11q` = Standard protocol for trunking
-
 
 
 __Ethernet Cables__
@@ -429,16 +364,19 @@ __Osi Model___
 -Sends packets of information
 
 3. Network layer
--IPsec
+-IPsec // Authentic Header (AH) // Encapsulating Security Payload (ESP)
 -Routers
 -ICMP
+-Multi-Layer Switch
 
 2. Data link layer
--Switches and bridges
+-Switches & Bridges
+-WAP (Wireless Access Points)
 -Sending / Receiving
 
 1. Physical layer
 -Physical and Cables
+-Modem & Hubs
 
 
 __VLAN__
@@ -460,132 +398,90 @@ __Severity Level Range__
 -`7` - Debugging
 
 
-
 __IEEE Standard__
 
 -`802.3ad` - Link Aggregation Control Protocol
-
 -`802.3af` - POE
-
 -`802.3at` - POE
-
 -`802.3d` - Spanning Tree Protocol
-
 -`802.3x` - Network Authentication Protocol / Radius
-
 
 
 __Protocols__
 
 -`ARP` - Local Address Resolution Protocol
-
 -`RTP` - Real-time Transport Protocol ?
-
 -`NTP` -  Network Time Protocol / Interior
-
 -`STP` - Spanning Tree Protocol / Interior
-
 -`BGP` - Border Gateway Protocol / autonomous systems/ Exterior
-
 -`RIP` - Routing Information Protocol / Interior Gateway Protocol / Autonomous System (AS)
-
 -`EIGRP` - Enhanced Interior Gateway Routing Protocol / Exterior
-
 -`OSPF` - Open Shortest Path First / Interior
-
 -`RIPv2` - classless, distance vector routing protocol that will include the subnet mask with the network addresses 
-
 -`LACP` - Link Aggregation Control Protocol. Will increase bandwidth between switches
 
 
 __APIPA__
 
 -`169.254.0.1 - 169.254.255.254` - Range
-
 -`169.254.1.0 - 169.254.254.255` - Range
 
 
 __Private IP__
 
 -`10.0.0.0 - 10.255.255.255` - Range
-
 -`172.16.0.0 - 172.31.255.255` - Range
-
 -`192.168.0.0 - 192.168.255.255` - Range
 
 
 __Ports__
 
 -`20, 21` = File Transfer Protocol. Not secure
-
 -`22` = SSH FTP, encrypted and uses firewall // SSH, SCP, SFTP
-
 -`23` = Telnet, unsecure
-
 -`25` = Simple Mail Transfer protocol, only for sending
-
 -`53` = DNS
-
 -`67, 68` = DHCP uses UDP ports // Dynamic hosting protocol
-
 -`80` = HTTP
-
 -`110` = POP3 (post office protocol 3)
-
 -`139` = Server Message Block
-
 -`143` = Internet Message Access Protocol
-
 -`161` = Simple Network Management Protocol. Managing Network Connected Devices
-
 -`162` = SNMP // Simple Network Management Protocol
-
 -`389` = Lightweight Directory Access Protocol // LDAP
-
 -`443` = SSH
-
 -`445` = Server Message Block Protocol // Client Server Communication
-
 -`636` = LDAP-ssh
-
 -`990` = FTPS. Secure
-
 -`993` = IMAP-ssh
-
 -`995` = POP3-ssh
-
 -`1433` = Microsoft SQL
-
 -`1521` = SQLnet
-
 -`1812` = RADIUS (authentication)
-
 -`3306` = MySQL
-
 -`3389` = RDP (remote desktop protocol)
-
 -`5060 / 5061` = Session Initiation Protocol
 
 
 Classful vs Classless ipv4 ??
+
+__Internet Protocol Security__
+
+-`IPsec` = 
 
 
 
 _WLAN Concepts_
 
 -`IBSS` = Independent Basic Service Set 
-
 -`BSS` = Basic Service Set
-
 -`ESS` = Extended Service Set
 
 
 _Encryption Basics_
 
 -`PSK` = Pre-Shared key
-
 -`PKI` = Public Key Infrastructure
-
 -`Kerberos` = Uses TCP & UDP - port 88
 -Key Distribution Center as main component
 -Has two parts - AS (authentication Server) & TGS (Ticket Granting Service)
@@ -594,7 +490,6 @@ _Encryption Basics_
 _Encryption Basics_
 
 -`SSID` = Service Set Identifier
-
 
 
 _CSMA_
@@ -615,11 +510,8 @@ _CSMA_
 _Documents_
 
 -`MOU` = Memorandum of Understanding
-
 -`SOW` = Statement of work
-
 -`MLA` = Master Licenses agreement
-
 -`SLA` = Service Level Agreement
 
 
