@@ -185,7 +185,42 @@ __Acronym_
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
 
 
+
+
+
+
+
+
 __Protocols__
+
+-`ARP` - Local Address Resolution Protocol
+-`RTP` - Real-time Transport Protocol ?
+-`NTP` -  Network Time Protocol / Interior
+-`STP` - Spanning Tree Protocol / Interior
+-`BGP` - Border Gateway Protocol / autonomous systems/ Exterior
+-`RIP` - Routing Information Protocol / Interior Gateway Protocol / Autonomous System (AS)
+-`EIGRP` - Enhanced Interior Gateway Routing Protocol / Exterior
+-`OSPF` - Open Shortest Path First / Interior
+-`RIPv2` - classless, distance vector routing protocol that will include the subnet mask with the network addresses
+-`LACP` - Link Aggregation Control Protocol. Will increase bandwidth between switches
+
+
+__VLAN Protocols__
+
+-`GRE` - Generic Routing Encapsulation // IPsec uses 1-1 or 1-multiple
+-`PPTP` - Point to Point Tunneling Protocol 
+-VPN but not secure until Microsoft added GRE
+-`TLS` - Transport Layer Security
+
+
+__MPLS Multiprotocol Label Switching_
+
+-`TLS` - Transport Layer Security
+-Any connection and any protocol
+-Uses labels
+
+
+_Authentication Methods_
 
 -`TACACS+` = Terminal Access Controller Access Control System (auth, authenticate, accounting) // Cisco
 -`RADIUS` = Remote Authentication Dial-In User Service 
@@ -332,21 +367,20 @@ __Ethernet Cables__
 -brown
 
 
+
 __Link Aggregation__
 IEEE 802.3ad = combines multiple connections to one connection
-
 
 __POE__
 802.3af = 15.4 watts
 802.1x =
 
-
 __POE+__
 802.at = 25.5 watts
 
-
 __Spanning Tree Protocol__
 802.1d = prevents switching loops
+
 
 
 __Osi Model___
@@ -355,9 +389,12 @@ __Osi Model___
 
 6. Presentation layer
 -Encrypting between Networks
+-Application Encryption
+-SSL // TLS
 
 5. Session layer
 -Setups communication channel
+-Protocols
 
 4. Transport layer
 -TCP / UDP
@@ -366,17 +403,44 @@ __Osi Model___
 3. Network layer
 -IPsec // Authentic Header (AH) // Encapsulating Security Payload (ESP)
 -Routers
+-Packets
 -ICMP
 -Multi-Layer Switch
+-Internet Protocol
+-IP address
 
 2. Data link layer
 -Switches & Bridges
 -WAP (Wireless Access Points)
 -Sending / Receiving
+-NIC for MAC
+-MAC
+-Ethernet
 
 1. Physical layer
 -Physical and Cables
 -Modem & Hubs
+-Punchdown
+-Media Converter
+
+
+
+__Encapsulation / Decapsulation___
+
+-Layer 5,6,7 = Application Data
+-Layer 4 = TCP // Application Data
+-Layer 3 = IP Header // TCP // Application Data
+-Layer 2 = Frame Header // IP Header // TCP // Application Data // Frame Header
+
+
+
+__TCP Flags___
+
+-`SYN` - Synchronize sequence numbers
+-`PSH` - Push data to app w/o buffer
+-`RST` - Reset Connection
+-`FIN` - Last Packet from sender
+
 
 
 __VLAN__
@@ -384,6 +448,10 @@ __VLAN__
 -`802.1d` - spanning tree protocol
 -`802.1x` - Network authentication protocol
 -`802.1q` - Multi switches for communication
+
+-`NFV` - Network Function Virtualization
+-Virtual Servers
+
 
 
 __Severity Level Range__
@@ -405,20 +473,6 @@ __IEEE Standard__
 -`802.3at` - POE
 -`802.3d` - Spanning Tree Protocol
 -`802.3x` - Network Authentication Protocol / Radius
-
-
-__Protocols__
-
--`ARP` - Local Address Resolution Protocol
--`RTP` - Real-time Transport Protocol ?
--`NTP` -  Network Time Protocol / Interior
--`STP` - Spanning Tree Protocol / Interior
--`BGP` - Border Gateway Protocol / autonomous systems/ Exterior
--`RIP` - Routing Information Protocol / Interior Gateway Protocol / Autonomous System (AS)
--`EIGRP` - Enhanced Interior Gateway Routing Protocol / Exterior
--`OSPF` - Open Shortest Path First / Interior
--`RIPv2` - classless, distance vector routing protocol that will include the subnet mask with the network addresses 
--`LACP` - Link Aggregation Control Protocol. Will increase bandwidth between switches
 
 
 __APIPA__
@@ -463,19 +517,22 @@ __Ports__
 -`5060 / 5061` = Session Initiation Protocol
 
 
-Classful vs Classless ipv4 ??
-
 __Internet Protocol Security__
 
 -`IPsec` = 
 
 
-
-_WLAN Concepts_
+__WLAN Concepts__
 
 -`IBSS` = Independent Basic Service Set 
 -`BSS` = Basic Service Set
 -`ESS` = Extended Service Set
+
+
+__SD-WAN__
+
+-`SD WAN` = Software Defined Network
+-Built in the cloud
 
 
 _Encryption Basics_
@@ -506,13 +563,42 @@ _CSMA_
 -DSSS = Spread spectrum tech
 
 
-
-_Documents_
+__Documents__
 
 -`MOU` = Memorandum of Understanding
 -`SOW` = Statement of work
 -`MLA` = Master Licenses agreement
 -`SLA` = Service Level Agreement
+
+
+
+_DNS Records_
+
+-`A` = IPv4 address
+-`AAAA` = IPv6 address
+-`CNAME` = Name Alias
+-`PTR` = Points to CNAME
+-`MX` = Maps email server to specific domain
+
+
+__Network Address Translation__
+
+-`SNAT` = Static NAT
+-`DNAT` = Dynamic NAT
+-`PAT` = Public Address Translation
+-Increase scalability of NAT 
+-Adds a port number to the end of IP address
+
+
+
+
+
+
+1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256
+256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 |1
+24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32
+
+128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
 
 
 
