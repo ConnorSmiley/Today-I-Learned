@@ -270,12 +270,9 @@ __Authentication Methods__
 __Remote Desktop Protocol__
 
 -`RDP` = Remote Desktop Protocol
--`VNC` = Virtual Network Computing
--`SSH` = Secure Shell
 -`MSP` = Managed Service Provider
 -`RMM` = Remote Monitor Management
 -`MSRA` = Microsoft Remote Assistance
--`VNC` = Virtual network computing // screen share Mac and Linux
 -`RDP` = Remote Desktop Protocol 
 -`TelNet` = Teletype Network. Clear text, no encrypt
 
@@ -299,21 +296,25 @@ __Documentation__
 
 __IP Addresses__
 
--`0.0.0.0 - 126.255.255.255` = Class A (public)
+
 -`10.0.0.0 - 10.255.255.255` = Class A (private)
--`10.189.1.0` = Class A (private) example
+-`172.16.0.0 - 172.31.255.255` = Class B (private)
+-`192.168.0.0 - 192.168.255.255` = Class C (private)
+
+-`0.0.0.0 - 126.255.255.255` = Class A (public)
 -`123.15.1.0` = Class A (public) example
+
 -`127.0.0.1` = Loopback
+
 -`128.0.0.0 - 191.255.255.255` = Class B (public)
 -`129.50.6.1` = Class B (public) example
+
 -`169.254.1.1` = APIPA2
 -`169.254.30.21` = APIPA
--`172.16.0.0 - 172.31.255.255` = Class B (private)
--`172.30.5.12` = Class B (private) example
+
 -`192.0.0.0 - 223.255.255.255` = Class C (public)
 -`192.15.1.0` = Class C (public) example
--`192.168.15.2/32` = Class C (private, CIDR format)
--`192.168.0.0 - 192.168.255.255` = Class C (private)
+
 -`240.0.0.0 - 254.255.255.255` = Class E (public, reserved)
 -`224.0.0.0 - 239.255.255` = Class D (public, multicast)
 
@@ -331,6 +332,7 @@ __Cables__
 -`802.11s` = wireless
 -`802.11ac` = 2.4ghz // 3.4 gbps
 -`802.11ax` = 2.4ghz // 5ghz
+
 
 
 __Wifi__
@@ -365,6 +367,14 @@ __Ethernet Cables__
 -green
 -brown/white
 -brown
+
+
+
+__Ethernet__
+
+-`WDM` = Wavelength Division Multiplexing
+-`CWDM` = Course Wavelength Division Multiplexing
+-`DWDM` = Dense Wavelength Division Multiplexing
 
 
 
@@ -588,6 +598,16 @@ __Network Address Translation__
 -`PAT` = Public Address Translation
 -Increase scalability of NAT 
 -Adds a port number to the end of IP address
+
+
+__Public Switch Telephone Network__
+
+-`PSTN` = Public Switch Telephone Network
+-Telephone line
+-`ISDN` = Integrated Service Digital Network
+-`BRI` = Basic Rate Interface // B channel & D channel
+-Alternative to DSL but not better
+
 
 
 
