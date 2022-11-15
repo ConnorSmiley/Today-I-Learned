@@ -203,6 +203,8 @@ __Protocols__
 -`OSPF` - Open Shortest Path First / Interior
 -`RIPv2` - classless, distance vector routing protocol that will include the subnet mask with the network addresses
 -`LACP` - Link Aggregation Control Protocol. Will increase bandwidth between switches
+-`NS` - Neighbor Solicitation
+-IPv6 instead of IPv4 w/ ARP
 
 
 __VLAN Protocols__
@@ -332,7 +334,6 @@ __Cables__
 -`802.11s` = wireless
 -`802.11ac` = 2.4ghz // 3.4 gbps
 -`802.11ax` = 2.4ghz // 5ghz
-
 
 
 __Wifi__
