@@ -275,9 +275,7 @@ __Remote Desktop Protocol__
 -`MSP` = Managed Service Provider
 -`RMM` = Remote Monitor Management
 -`MSRA` = Microsoft Remote Assistance
--`RDP` = Remote Desktop Protocol 
 -`TelNet` = Teletype Network. Clear text, no encrypt
-
 
 
 __Wifi Protocol__
@@ -289,11 +287,9 @@ __Wifi Protocol__
 -`WINS` = Windows Internet Name Service
 
 
-
 __Documentation__
 
 -`Knowledge based articals` = KB
-
 
 
 __IP Addresses__
