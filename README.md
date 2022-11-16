@@ -591,7 +591,7 @@ __Encryption Basics__
 -Has two parts - AS (authentication Server) & TGS (Ticket Granting Service)
 
 
-_CSMA_
+__CSMA__
 
 -`CSMA/CD` = Carrier Sense Multiple Access w/ Collision Detection
 -Better for high speed and throughput networks // 802.3
