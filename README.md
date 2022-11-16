@@ -582,7 +582,7 @@ __SD-WAN__
 -Built in the cloud
 
 
-_Encryption Basics_
+__Encryption Basics__
 
 -`PSK` = Pre-Shared key
 -`PKI` = Public Key Infrastructure
@@ -591,7 +591,7 @@ _Encryption Basics_
 -Has two parts - AS (authentication Server) & TGS (Ticket Granting Service)
 
 
-_Encryption Basics_
+__Encryption Basics__
 
 -`SSID` = Service Set Identifier
 
