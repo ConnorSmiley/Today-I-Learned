@@ -191,12 +191,29 @@ __Acronym_
 
 
 
+
+
+
+__Protocols__
+
+-`SNMP` - Simple Network Management Protocol
+-Port 161
+-SNMP Traps sends error messages - Port 162
+
+
+__Protocols__
+
+-`SysLog` - Needs lots of storage
+
+
 __Protocols__
 
 -`ARP` - Local Address Resolution Protocol
--`RTP` - Real-time Transport Protocol ?
+-`RTP` - Real-Time Transport Protocol ?
 -`NTP` -  Network Time Protocol / Interior
 -`STP` - Spanning Tree Protocol / Interior
+-`TCP` - Transmission Control Protocol
+-`UDP` - User Diagram Protocol
 -`BGP` - Border Gateway Protocol / autonomous systems/ Exterior
 -`RIP` - Routing Information Protocol / Interior Gateway Protocol / Autonomous System (AS)
 -`EIGRP` - Enhanced Interior Gateway Routing Protocol / Exterior
@@ -215,19 +232,39 @@ __VLAN Protocols__
 -`TLS` - Transport Layer Security
 
 
-__MPLS Multiprotocol Label Switching_
+__MPLS Multiprotocol Label Switching__
 
 -`TLS` - Transport Layer Security
 -Any connection and any protocol
 -Uses labels
 
 
-_Authentication Methods_
+__NDP (Neighbor Discovery Protocol)__
+-Replaces IPv4 & ARP
+-Uses ICMPv6
+
+-`SLAAC` - Stateless Address Autoconfiguration
+-Auto assigns IP address w/o DHCP 
+-DAD (Duplicate Address Detection) is needed to prevent duplicates
+
+-`RS` - Router Solicitation => Send
+
+-`RA` - Router Advertisement <= Receive
+
+
+__Authentication Methods__
 
 -`TACACS+` = Terminal Access Controller Access Control System (auth, authenticate, accounting) // Cisco
 -`RADIUS` = Remote Authentication Dial-In User Service 
 -`Kerberos` = network authentication protocol design // windows
 -`Challenge-Handshake Authentication Protocol` = Authenticate user
+
+
+__Tunneling Methods__
+
+-`Teredo` = IPv6 => IPv4 // Windows
+-`Miredo` = IPv6 => IPv4 // Linus Mac OSX
+-`Dual Stack Routing` = IPv6 & IPv4 
 
 
 __Phone__
@@ -293,7 +330,6 @@ __Documentation__
 
 
 __IP Addresses__
-
 
 -`10.0.0.0 - 10.255.255.255` = Class A (private)
 -`172.16.0.0 - 172.31.255.255` = Class B (private)
@@ -366,7 +402,6 @@ __Ethernet Cables__
 -brown
 
 
-
 __Ethernet__
 
 -`WDM` = Wavelength Division Multiplexing
@@ -374,20 +409,21 @@ __Ethernet__
 -`DWDM` = Dense Wavelength Division Multiplexing
 
 
-
 __Link Aggregation__
 IEEE 802.3ad = combines multiple connections to one connection
+
 
 __POE__
 802.3af = 15.4 watts
 802.1x =
 
+
 __POE+__
 802.at = 25.5 watts
 
+
 __Spanning Tree Protocol__
 802.1d = prevents switching loops
-
 
 
 __Osi Model___
@@ -415,6 +451,7 @@ __Osi Model___
 -Multi-Layer Switch
 -Internet Protocol
 -IP address
+-IPsec
 
 2. Data link layer
 -Switches & Bridges
@@ -431,8 +468,7 @@ __Osi Model___
 -Media Converter
 
 
-
-__Encapsulation / Decapsulation___
+__Encapsulation / Decapsulation__
 
 -Layer 5,6,7 = Application Data
 -Layer 4 = TCP // Application Data
@@ -440,14 +476,12 @@ __Encapsulation / Decapsulation___
 -Layer 2 = Frame Header // IP Header // TCP // Application Data // Frame Header
 
 
-
-__TCP Flags___
+__TCP Flags__
 
 -`SYN` - Synchronize sequence numbers
 -`PSH` - Push data to app w/o buffer
 -`RST` - Reset Connection
 -`FIN` - Last Packet from sender
-
 
 
 __VLAN__
@@ -458,7 +492,6 @@ __VLAN__
 
 -`NFV` - Network Function Virtualization
 -Virtual Servers
-
 
 
 __Severity Level Range__
@@ -495,6 +528,15 @@ __Private IP__
 -`192.168.0.0 - 192.168.255.255` - Range
 
 
+__Internet Protocol Security__
+
+-`IPsec` = Layer 3 OSI
+-`AH` = Authentication Protocol
+-Sends Hash Packets for Security
+-`ESP` = Encapsulation Security Payload
+-Encrypts packets
+
+
 __Ports__
 
 -`20, 21` = File Transfer Protocol. Not secure
@@ -505,13 +547,15 @@ __Ports__
 -`67, 68` = DHCP uses UDP ports // Dynamic hosting protocol
 -`80` = HTTP
 -`110` = POP3 (post office protocol 3)
--`139` = Server Message Block
+-`123` = NTP (Network Time Protocol)
+-`139` = SMB // Server Message Block
 -`143` = Internet Message Access Protocol
--`161` = Simple Network Management Protocol. Managing Network Connected Devices
+-`161` = SNMP // Simple Network Management Protocol. Managing Network Connected Devices
 -`162` = SNMP // Simple Network Management Protocol
--`389` = Lightweight Directory Access Protocol // LDAP
+-`389` = LDAP // Lightweight Directory Access Protocol
 -`443` = SSH
--`445` = Server Message Block Protocol // Client Server Communication
+-`445` = SMB // Server Message Block // Client Server Communication
+-`514` = SysLog
 -`636` = LDAP-ssh
 -`990` = FTPS. Secure
 -`993` = IMAP-ssh
@@ -521,12 +565,7 @@ __Ports__
 -`1812` = RADIUS (authentication)
 -`3306` = MySQL
 -`3389` = RDP (remote desktop protocol)
--`5060 / 5061` = Session Initiation Protocol
-
-
-__Internet Protocol Security__
-
--`IPsec` = 
+-`5060 / 5061` = Session Initiation Protocol // VoIP
 
 
 __WLAN Concepts__
@@ -578,7 +617,6 @@ __Documents__
 -`SLA` = Service Level Agreement
 
 
-
 _DNS Records_
 
 -`A` = IPv4 address
@@ -606,16 +644,22 @@ __Public Switch Telephone Network__
 -Alternative to DSL but not better
 
 
-
-
-
-
-
 1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256
 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 |1
 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32
 
 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
+
+
+
+
+
+
+
+
+
+
+
 
 
 
