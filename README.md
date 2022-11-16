@@ -591,11 +591,6 @@ __Encryption Basics__
 -Has two parts - AS (authentication Server) & TGS (Ticket Granting Service)
 
 
-__Encryption Basics__
-
--`SSID` = Service Set Identifier
-
-
 _CSMA_
 
 -`CSMA/CD` = Carrier Sense Multiple Access w/ Collision Detection
