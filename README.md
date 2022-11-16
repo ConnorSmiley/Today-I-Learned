@@ -599,7 +599,7 @@ __Encryption Basics__
 _CSMA_
 
 -`CSMA/CD` = Carrier Sense Multiple Access w/ Collision Detection
--Better for high speed and thruoughput networks // 802.3
+-Better for high speed and throughput networks // 802.3
 
 -`CSMA/CA` = Carrier Sense Multiple Access w/ Collision Avoidance 
 -Uses RST (request to send) packets
