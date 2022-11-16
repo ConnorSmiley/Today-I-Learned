@@ -426,7 +426,8 @@ __Spanning Tree Protocol__
 802.1d = prevents switching loops
 
 
-__Osi Model___
+__Osi Model__
+
 7. Application layer
 -Protocols and Requests
 
@@ -484,7 +485,7 @@ __TCP Flags__
 -`FIN` - Last Packet from sender
 
 
-__VLAN__
+__vLAN__
 -`802.1af` - Power over ethernet
 -`802.1d` - spanning tree protocol
 -`802.1x` - Network authentication protocol
