@@ -181,7 +181,7 @@ __Line Break__
 
 
 >## A-plus
-> 
+ 
 __Acronym_
 
 [`A-plus`](Comptia-a-plus-acronym/acronyms.md)
