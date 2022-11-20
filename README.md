@@ -189,7 +189,7 @@ __Acronym__
 
 
 >## Network-plus
-__Notes__
+__Click Below for Notes__
 
 [Network+ Notes](Network+/Network+.md)
 
