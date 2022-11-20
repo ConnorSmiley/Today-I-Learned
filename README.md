@@ -3,6 +3,9 @@
 
 ---
 
+
+-[A+](#A+)
+
 -[Cookies](#Cookies)
 
 -[Chrome](#Chrome)
@@ -26,8 +29,6 @@
 -[Mac](#Mac)
 
 -[Markdown](#Markdown)
-
--[Network](#Network)
 
 -[Cidr-Block-Notation](#Cidr-Block-Notation)
 
@@ -179,7 +180,7 @@ __Line Break__
 -`&nbsp;`
 
 
->## Network 
+>## A+
 __Acronym_
 
 [`Comptia A+ acronyms`](Comptia-a-plus-acronym/acronyms.md)
@@ -366,6 +367,7 @@ __Cables__
 -`802.11s` = wireless
 -`802.11ac` = 2.4ghz // 3.4 gbps
 -`802.11ax` = 2.4ghz // 5ghz
+-`802.3x` = Flow controller
 
 
 __Wifi__
@@ -407,10 +409,6 @@ __Ethernet__
 -`WDM` = Wavelength Division Multiplexing
 -`CWDM` = Course Wavelength Division Multiplexing
 -`DWDM` = Dense Wavelength Division Multiplexing
-
-
-__Link Aggregation__
-IEEE 802.3ad = combines multiple connections to one connection
 
 
 __POE__
@@ -514,6 +512,10 @@ __IEEE Standard__
 -`802.3at` - POE
 -`802.3d` - Spanning Tree Protocol
 -`802.3x` - Network Authentication Protocol / Radius
+
+
+__Link Aggregation__
+IEEE 802.3ad = combines multiple connections to one connection
 
 
 __APIPA__
@@ -640,6 +642,7 @@ __Public Switch Telephone Network__
 -Alternative to DSL but not better
 
 
+
 1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256
 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 |1
 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32
@@ -648,9 +651,7 @@ __Public Switch Telephone Network__
 
 
 
-
-
-
+ 
 
 
 
