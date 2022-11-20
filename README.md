@@ -182,6 +182,7 @@ __Line Break__
 
 >## A-plus
 __Acronym__
+
 [A+ Notes](Comptia-a-plus-acronym/acronyms.md)
 
 
