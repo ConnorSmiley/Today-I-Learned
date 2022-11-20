@@ -181,15 +181,8 @@ __Line Break__
 
 
 >## A-plus
-__Acronym_
+__Acronym__
 [A-plus](Comptia-a-plus-acronym/acronyms.md)
-
-
-
-
-
-
-
 
 
 __Protocols__
