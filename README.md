@@ -34,7 +34,7 @@
 
 -[Nextjs](#Nextjs)
 
--[Network+](#Network+)
+-[Network-plus](#Network-plus)
 
 -[Postgresql](#Postgresql)
 
