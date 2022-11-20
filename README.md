@@ -4,7 +4,7 @@
 ---
 
 
--[A+](#A+)
+-[A-plus](#A-plus)
 
 -[Cookies](#Cookies)
 
@@ -180,7 +180,7 @@ __Line Break__
 -`&nbsp;`
 
 
->## A+
+>## A-plus
 __Acronym_
 
 [A+](Comptia-a-plus-acronym/acronyms.md)
