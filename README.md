@@ -26,6 +26,8 @@
 
 -[LocalStorage](#LocalStorage)
 
+-[Homelab](#Homelab)
+
 -[Mac](#Mac)
 
 -[Markdown](#Markdown)
@@ -161,6 +163,11 @@ __Clear History__
 
 >## LocalStorage
 
+>## LocalStorage
+__Notes for HomeLab__
+
+[HomeLab](Homelab/Homelab.md)
+
 
 >## Mac
 __SMC__  
@@ -194,7 +201,6 @@ __Click Below for Notes__
 [Network+ Notes](Network+/Network+.md)
 
 
-
 >## Cidr Block Notation
 
 [Cidr-Block-Notation](cird/cird.md)
@@ -217,6 +223,15 @@ __Show Timeline__
 
 
 >## React
+
+__React Options Chaining__
+```javascript
+
+console.log(maybeNo.Object?)
+
+```
+
+
 __Slice and Map__
 ```javascript
 array = []
