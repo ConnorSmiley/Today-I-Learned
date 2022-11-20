@@ -6,6 +6,8 @@
 
 -[A-plus](#A-plus)
 
+-[AWS](#AWS)
+
 -[Cookies](#Cookies)
 
 -[Chrome](#Chrome)
@@ -70,6 +72,25 @@
 
 
 ***
+
+
+>## A-plus
+__Acronym__
+
+[A+ Notes](Comptia-a-plus-acronym/acronyms.md)
+
+
+>## AWS
+__AWS Notes__
+
+[AWS](Aws/Aws.md)
+
+
+>## Azure
+__Azure Notes__
+
+[Azure](Azure/Azure.md)
+
 
 >## CSS
 
@@ -189,10 +210,6 @@ __Line Break__
 -`&nbsp;`
 
 
->## A-plus
-__Acronym__
-
-[A+ Notes](Comptia-a-plus-acronym/acronyms.md)
 
 
 >## Network-plus
