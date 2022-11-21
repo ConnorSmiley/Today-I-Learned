@@ -94,54 +94,13 @@ __Azure Notes__
 
 >## CSS
 
-__User Select None__
-```css
-user-select: auto|none|text|all;
-```
+[CSS](CSS/CSS.md)
 
-
->## Cookies
-
-
->## Chrome
-__Disable Google Helper__  
--`chrome://settings/content/unsandboxedPlugins`
-
-
->## Dev-Tools
-__Copy & Paste__
-```javascript
-copy(Array.from(document.querySelectorAll('.DIVNAME li a')).map(x => x.innerText))
-```
 
 >## JavaScript
-__KeyboardEvent.code vs keydown__  
--Represents a physical key on a keyboard vs the UTF-8 generated
-```javascript
-KeyboardEvent.code vs
 
-useEffect(() => {
-    document.addEventListener("keydown", handleKeyboard)
+[JavaScript](JavaScript/JavaScript.md)
 
-return () => {
-     document.removeEventListener("keydown", handleKeybaord)
-}
- }, [handleKeyboard])
-```
-
-__Looping Backwards is faster__
-Only by a margin
-
-
-__New Date__
-```javascript
-{new Date(props.prop).toLocaleTimeString({hour: "numeric", minute: "numeric"})}
-```
-
-__Set Interval__
-```javascript
-setInterval(() => {setState(prev => prev), 1000})
-```
 
 >## GitHub
 __Line Break__  
