@@ -3,7 +3,6 @@
 
 ---
 
-
 -[A-plus](#A-plus)
 
 -[AWS](#AWS)
@@ -68,7 +67,11 @@
 
 -[WindowsCommands](#WindowsCommands)
 
+-[WindowsServer](#WindowsServer)
+
 -[ShortCutUpdates](#ShortCutUpdates)
+
+
 
 
 ***
@@ -457,6 +460,15 @@ __Network Command Line Tools__
 
 
 
+>## WindowsCommands
+ 
+__Windows Server__
+net user Administrator /passwordreq:yes *
+
+
+
+
+
 >## ShortCutUpdates
 __Arrow__
 ar
@@ -469,59 +481,3 @@ $End$
 
 ## Icons
 ➕❌💥✨❓❕🚫✖️➖&nbsp;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
