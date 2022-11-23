@@ -459,14 +459,10 @@ __Network Command Line Tools__
 `nslookup` = look up DNS, names and IP
 
 
-
 >## WindowsCommands
  
 __Windows Server__
 net user Administrator /passwordreq:yes *
-
-
-
 
 
 >## ShortCutUpdates
