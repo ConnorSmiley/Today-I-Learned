@@ -1,5 +1,3 @@
-
-
 __Protocols__
 
 -`SNMP` - Simple Network Management Protocol
