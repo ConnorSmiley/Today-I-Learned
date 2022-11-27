@@ -1,4 +1,5 @@
 # Today I Learned
+
 > A library of my TIL
 
 ---
@@ -79,62 +80,62 @@
 ***
 
 
->## A-plus
+> ## A-plus
 __Acronym__
 
 [A+ Notes](Comptia-a-plus-acronym/acronyms.md)
 
 
->## AWS
+> ## AWS
 __AWS Notes__
 
 [AWS](Aws/Aws.md)
 
 
->## Azure
+> ## Azure
 __Azure Notes__
 
 [Azure](Azure/Azure.md)
 
 
->## CSS
+> ## CSS
 
 [CSS](CSS/CSS.md)
 
 
->## JavaScript
+> ## JavaScript
 
 [JavaScript](JavaScript/JavaScript.md)
 
 
->## GitHub
+> ## GitHub
 
 [Github](Github/Github.md)
 
->## Iterm
+> ## Iterm
 __Clear History__  
 -`rm $HISTFILE`
 
 
->## Linux-Commands
+> ## Linux-Commands
 
 [Link to Linux Commands](Linux-Commands/comptia-a+/linux-commands.md)
 
 
->## Linux-Features
- 
+> ## Linux-Features
+
 [Link to Linux Features](Linux-Features/Linus-Features.md)
 
 
->## LocalStorage
+> ## LocalStorage
 
->## LocalStorage
+> ## LocalStorage
 __Notes for HomeLab__
 
 [HomeLab](Homelab/Homelab.md)
 
 
->## Mac
+> ## Mac
 __SMC__  
 -`shift + ctrl + option + power`
 
@@ -149,220 +150,263 @@ __Quit Finder__
 -`QuitMenuItem -bool true;`     
 -`killall Finder`
 
->## Markdown
+> ## Markdown
 __Line Break__  
 -`&nbsp;`
 
 
 
 
->## Network-plus
+> ## Network-plus
 __Click Below for Notes__
 
 [Network+ Notes](Network+/Network+.md)
 
 
->## Cidr Block Notation
+> ## Cidr Block Notation
 
 [Cidr-Block-Notation](cird/cird.md)
 
 
->## Nextjs
+> ## Nextjs
 __Install TW__  
 -`npm install -D tailwindcss postcss autoprefixer`  
 -`npx tailwindcss init -p`
 
+__Fetch API__
 
->## Postgresql
+```javascript
+
+const [fetched, setFetched] = useState()
+
+
+useEffect(() => {
+    const fetchItems = async () => {
+        try {
+            const response = await fetch(API_URL);
+            if (!response.ok) throw Error('Did not receive expected data');
+            const fetchAPI = await response.json();
+            setFetched(fetchAPI);
+            setFetchError(null);
+        } catch (err) {
+            setFetchError(err.message);
+        } finally {
+            setIsLoading(false);
+        }
+    }
+
+    setTimeout(() => fetchItems(), 2000)
+
+}, [])
+```
+
+> ## Postgresql
 __Start / Stop server__  
 -`brew services start postgresql`  
 -`brew services stop postgresql`
 
->## Premiere
+> ## Premiere
 __Show Timeline__  
 -` \ `
 
 
->## React
+> ## React
 
 __React Options Chaining__
+
 ```javascript
 
-console.log(maybeNo.Object?)
+console.log(maybeNo.Object ?)
 
 ```
 
-
 __Slice and Map__
+
 ```javascript
 array = []
 
-{array.slice(startIndex: number, endIndex: number).map(x => {
- return <Component>{x}</Component>
-})}
+{
+    array.slice(startIndex
+:
+    number, endIndex
+:
+    number
+).
+    map(x => {
+        return <Component>{x}</Component>
+    })
+}
 ```
 
-
 __KeyStroke Text__
+
 ```javascript
     const [text, setText] = useState("")
 
-    function handleChange(e) {
-        const {value} = e.target
-        setText(value)
-    }
+function handleChange(e) {
+    const {value} = e.target
+    setText(value)
+}
 
 return (
-         <div 
-                 onChange={handleChange}
-                 value={text}
-         />
+    <div
+        onChange={handleChange}
+        value={text}
+    />
 ```
 
 __Count Words__
+
 ```javascript
 const [text, setText] = useState("")
 
 function handleChange(e) {
- const {value} = e.target
- setText(value)
+    const {value} = e.target
+    setText(value)
 }
 
 function calculateWordCount(text) {
- const wordsArr = text.trim().split(" ")
- const filteredWords = wordsArr.filter(word => word !== "")
- return filteredWords.length
+    const wordsArr = text.trim().split(" ")
+    const filteredWords = wordsArr.filter(word => word !== "")
+    return filteredWords.length
 }
-    
-    return (
-        <div>
-         <TextBox
-                 onChange={handleChange}
-                 value={text}
-         />
-         <button onClick={()=> calculateWordCount(text)} />
-         </div>
-    )
+
+return (
+    <div>
+        <TextBox
+            onChange={handleChange}
+            value={text}
+        />
+        <button onClick={() => calculateWordCount(text)}/>
+    </div>
+)
 
 ```
 
 __Timer == setTimeRemaining__
+
 ```javascript
 const [timeRemaining, setTimeRemaining] = useState(5)
 
 
-    useEffect(() => {
- setTimeout(() => {
-  if (timeRemaining === 0) return
-  setTimeRemaining(time => time - 1)
- }, 1000)
+useEffect(() => {
+    setTimeout(() => {
+        if (timeRemaining === 0) return
+        setTimeRemaining(time => time - 1)
+    }, 1000)
 }, [timeRemaining])
 
 or
 
 useEffect(() => {
- if(timeRemaining > 0) {
-  setTimeout(() => {
-   setTimeRemaining(time => time - 1)
-  }, 1000)
- }
+    if (timeRemaining > 0) {
+        setTimeout(() => {
+            setTimeRemaining(time => time - 1)
+        }, 1000)
+    }
 }, [timeRemaining])
 ```
 
 __UseEffect Return__
+
 ```javascript
     useEffect(() => {
- const intervalId = setInterval(() => {
-  setCount(prevCount => prevCount + 1)
- }, 1000)
- setColor(randomcolor())
- return () => clearInterval(intervalId)
+    const intervalId = setInterval(() => {
+        setCount(prevCount => prevCount + 1)
+    }, 1000)
+    setColor(randomcolor())
+    return () => clearInterval(intervalId)
 }, [count])
 ```
+
 __Button Disable__
+
 ```javascript
 const [timeRunning, setTimeRunning] = useState(5)
 
-        return(
-<Button 
-    disable={timeRunning}/>)
+return (
+    <Button
+        disable={timeRunning}/>)
 ```
 
-
 _Disable Input_
+
 ```javascript
 <button disabled={!text}>CLICK</button>
 
 ```
 
->## React-StyleComponents
+> ## React-StyleComponents
 __Passing Props__  
--`${props => props.NAME ? NAME : NAME}`  
+-`${props => props.NAME ? NAME : NAME}`
 
->## Redux  
+> ## Redux
 
 ```javascript
 
-import { createSlice } from '@reduxjs/toolkit'
+import {createSlice} from '@reduxjs/toolkit'
 
-const initialState = [{
-
-}]
+const initialState = [{}]
 
 export const $VAR$ = createSlice({
- name: '',
- initialState,
- reducers: {
-
- },
+    name: '',
+    initialState,
+    reducers: {},
 })
 
-export const ??? = (state) => state.???
+export const ??
+? = (state) => state. ?? ?
 export const {} = $VAR$.actions
 export default $VAR$.reducer
 ```
 
->## Saas
+> ## Saas
 
 [Saas Notes](Saas/Saas.md)
 
 
 
->## Security
- 
-`ACL` - Access Control List 
+> ## Security
+
+`ACL` - Access Control List
 
 
->## Sublime-Text
+> ## Sublime-Text
 __Alias File__    
 -`/Users/UserName/.zshrc`  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
 
->## TailWindCss  
+> ## TailWindCss
 __Center Absolute__  
 -`inset-x-0`
 
 __Render Conditions__
+
 ```javascript
 const handleTail = (small ? "bg-black" : med ? "bg-white" : large ? "bg-red-500" : "bg-green-500")
 
-<div className={handleTail}>Blah</div>
+    < div
+className = {handleTail} > Blah < /div>
 ```
 
->## ThinkScript
+> ## ThinkScript
 __Input Toggle Switching__
+
 ```javascript
-def VARIABLE_NAME;
-    switch (mode) {
+def
+VARIABLE_NAME;
+switch (mode) {
     case VARIABLE_NAME:
-        something = define logic;
+        something = define
+        logic;
 
     case VARIABLE_NAME:
-        something = define logic;
+        something = define
+        logic;
 }
 ```
 
->## Vim
+> ## Vim
 __Save and Write__  
 -`:q` close      
 -`:w`        write/saves   
@@ -370,15 +414,15 @@ __Save and Write__
 -`:x`        save and quit, same as wq  
 -`:q!`      force close's non-saved files with changes
 
->## Volta
+> ## Volta
 __Steps to Enable__  
 -`⌘+R turn on your Mac`  
 -`csrutil enable --without kext`  
 -`csrutil disable`
 
 
->## WindowsCommands
- 
+> ## WindowsCommands
+
 __Navigation__
 
 `cd` = change directory
@@ -397,9 +441,7 @@ __Navigation__
 
 `cls` = clear screen
 
-
 __Command Line Tools__
-
 
 `[command name] /?` = Show help command (similar to man)
 `help` = help
@@ -437,7 +479,6 @@ __Command Line Tools__
 
 `winver` = shows which version
 
-
 __Network Command Line Tools__
 
 `ipconfig` = displays TCP/IP, DHCP and DNS
@@ -467,13 +508,13 @@ __Network Command Line Tools__
 `nslookup` = look up DNS, names and IP
 
 
->## WindowsCommands
- 
+> ## WindowsCommands
+
 __Windows Server__
 net user Administrator /passwordreq:yes *
 
 
->## ShortCutUpdates
+> ## ShortCutUpdates
 __Arrow__
 ar
 `= () => {
@@ -484,4 +525,5 @@ $End$
 ---
 
 ## Icons
+
 ➕❌💥✨❓❕🚫✖️➖&nbsp;
