@@ -42,6 +42,8 @@
 
 -[Postgresql](#Postgresql)
 
+-[Prisma](#Prisma)
+
 -[Premiere](#Premiere)
 
 -[React](#React)
@@ -204,6 +206,16 @@ useEffect(() => {
 __Start / Stop server__  
 -`brew services start postgresql`  
 -`brew services stop postgresql`
+
+
+> ## Prisma
+> 
+__Commands__
+-`yarn prisma db push`
+-`yarn prisma migrate dev --name init`
+-`yarn prisma introspect --force`
+
+
 
 > ## Premiere
 __Show Timeline__  
