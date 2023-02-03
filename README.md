@@ -209,12 +209,18 @@ __Start / Stop server__
 
 
 > ## Prisma
-> 
+[Prisma](Prisma/Prisma.md)
+
 __Commands__
+
 -`yarn prisma db push`
+
 -`yarn prisma migrate dev --name init`
+
 -`yarn prisma introspect --force`
+
 -`yarn prisma studio`
+
 -`yarn prisma generate`
 
 
