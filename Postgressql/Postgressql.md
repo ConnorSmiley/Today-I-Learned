@@ -10,14 +10,18 @@ Or
 -`CREATE SCHEMA employee;`
 
 __Create Schema with ownership__
+
 -` CREATE SCHEMA schemaname [ AUTHORIZATION username ] [ schema_element [ ..... ] ]`
 
+
 __Create Schema with object__
+
 -`schema_name.table_name`
 
 -`public.customer`
 or
 -`marketing.customer`
+
 
 __Public Schema__
 -`CREATE TABLE table_name;`
