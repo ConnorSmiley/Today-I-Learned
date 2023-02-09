@@ -1,4 +1,4 @@
->Create Schema__
+>Create Schema
 
 -`CREATE SCHEMA schema_name;`
 
@@ -24,11 +24,13 @@ or
 
 
 __Public Schema__
+
 -`CREATE TABLE table_name;`
 and
 -`CREATE TABLE public.table_name;`
 
 __Rename Schema__
+
 -`ALTER SCHEMA old_name RENAME TO new_name;`
 -`ALTER SCHEMA staff to employees;`
 
