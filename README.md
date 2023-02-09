@@ -40,7 +40,7 @@
 
 -[Network-plus](#Network-plus)
 
--[Postgresql](#Postgresql)
+-[Postgressql](#Postgressql)
 
 -[Prisma](#Prisma)
 
@@ -202,10 +202,16 @@ useEffect(() => {
 }, [])
 ```
 
-> ## Postgresql
+> ## Postgressql
+[Postgressql](Postgressql/Postgressql.md)
+
 __Start / Stop server__  
 -`brew services start postgresql`  
 -`brew services stop postgresql`
+
+
+
+
 
 
 > ## Prisma
