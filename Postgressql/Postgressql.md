@@ -9,12 +9,12 @@ Or
 
 -`CREATE SCHEMA employee;`
 
-__Create Schema with ownership__
+# Create Schema with ownership
 
 -` CREATE SCHEMA schemaname [ AUTHORIZATION username ] [ schema_element [ ..... ] ]`
 
 
-__Create Schema with object__
+# Create Schema with object
 
 -`schema_name.table_name`
 
@@ -23,18 +23,18 @@ or
 -`marketing.customer`
 
 
-__Public Schema__
+# Public Schema
 
 -`CREATE TABLE table_name;`
 and
 -`CREATE TABLE public.table_name;`
 
-__Rename Schema__
+# Rename Schema
 
 -`ALTER SCHEMA old_name RENAME TO new_name;`
 -`ALTER SCHEMA staff to employees;`
 
-__Alter Owner of Schema__
+# Alter Owner of Schema
 
 -` ALTER SCHEMA schema_name
 OWNER TO { new_owner | CURRENT_USER | SESSION_USER};`
@@ -42,56 +42,56 @@ OWNER TO { new_owner | CURRENT_USER | SESSION_USER};`
 -`ALTER SCHEMA staff
 OWNER TO kate;`
 
-__Drop Schema__
+# Drop Schema
 
 -`DROP SCHEMA [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ] `
 
 -`DROP SCHEMA IF EXISTS sales;`
 
-__Drop Schema with Object__
+# Drop Schema with Object
 
 -`DROP SCHEMA schema_name CASCADE; `
 
 -`DROP SCHEMA sales CASCADE;`
 
-__Create Schema Owned by Someone Else__
+# Create Schema Owned by Someone Else
 
 -`CREATE SCHEMA schema_name AUTHORIZATION user_name; `
 
-__Drop Table__
+# Drop Table
 
 -`DROP TABLE mytable;`
 
-__Revoke Privileges__
+# Revoke Privileges
 
 -`REVOKE CREATE ON SCHEMA public FROM PUBLIC;`
 
-__Create Role__
+# Create Role
 
 -`CREATE ROLE role_name; `
 
 
-__Create New Role with Username and Password__
+# Create New Role with Username and Password
 
 -`CREATE ROLE username NOINHERIT LOGIN PASSWORD password;`
 
-__Change Role for the Current Session__
+# Change Role for the Current Session
 
 -`SET ROLE new_role;`
 
-__Allow role 1 to be role 2__
+# Allow role 1 to be role 2
 
 -`GRANT role_2 TO role_1;`
 
-__Create DB__
+# Create DB
 
 -`CREATE DATABASE [IF NOT EXISTS] db_name; `
 
-__Drop DB__
+# Drop DB
 
 -`DROP DATABASE [IF EXISTS] db_name; `
 
-__Create Table__
+# Create Table
 
 -`CREATE [TEMP] TABLE [IF NOT EXISTS] table_name(
 pk SERIAL PRIMARY KEY,
@@ -100,124 +100,124 @@ c2 type(size) NULL,
 ...
 );`
 
-__Add New Column__
+# Add New Column
 
 -`ALTER TABLE table_name ADD COLUMN new_column_name TYPE; `
 
-__Drop Column__
+# Drop Column
 
 -`ALTER TABLE table_name DROP COLUMN column_name; `
 
-__Rename Column__
+# Rename Column
 
 -`ALTER TABLE table_name RENAME column_name TO new_column_name; `
 
-__Set or Remove Default Column__
+# Set or Remove Default Column
 
 -`ALTER TABLE table_name ALTER COLUMN [SET DEFAULT value | DROP DEFAULT] `
 
-__Add Primary Key__
+# Add Primary Key
 
 -`ALTER TABLE table_name ADD PRIMARY KEY (column,...); `
 
-__Remove Primary Key from Table__
+# Remove Primary Key from Table
 
 -`ALTER TABLE table_name
 DROP CONSTRAINT primary_key_constraint_name; `
 
-__Rename Table__
+# Rename Table
 
 -`ALTER TABLE table_name RENAME TO new_table_name; `
 
-__Drop Table__
+# Drop Table
 
 -` DROP TABLE [IF EXISTS] table_name CASCADE; `
 
-__Create View__
+# Create View
 
 -`CREATE OR REPLACE view_name AS
 query; `
 
-__Create Recursion View__
+# Create Recursion View
 
 -`CREATE RECURSIVE VIEW view_name(column_list) AS
 SELECT column_list; `
 
-__Create Materialized View__
+# Create Materialized View
 
 -`CREATE MATERIALIZED VIEW view_name
 AS
 query
 WITH [NO] DATA; `
 
-__Refresh Materialized View__
+# Refresh Materialized View
 
 -`REFRESH MATERIALIZED VIEW CONCURRENTLY view_name;`
 
-__Drop a View__
+# Drop a View
 
 -`DROP VIEW [ IF EXISTS ] view_name; `
 
-__Rename a View__
+# Rename a View
 
 -`ALTER VIEW view_name RENAME TO new_name;`
 
-__Create an Index with Specific Name on a Table__
+# Create an Index with Specific Name on a Table
 
 -`CREATE [UNIQUE] INDEX index_name
 ON table (column,...) `
 
-__Remove a Specific Index from Table__
+# Remove a Specific Index from Table
 
 -`DROP INDEX index_name; `
 
-__Query All Data__
+# Query All Data
 
 -`SELECT * FROM table_name; `
 
-__Query All Data from Specific Column__
+# Query All Data from Specific Column
 
 -`SELECT column_list
 FROM table; `
 
-__Query All Data from Specific Row__
+# Query All Data from Specific Row
 
 -`SELECT DISTINCT (column)
 FROM table; `
 
-__Query with Filter__
+# Query with Filter
 
 -`SELECT *
 FROM table
 WHERE condition; `
 
-__Assign an Alias to a Column__
+# Assign an Alias to a Column
 
 -`SELECT column_1 AS new_column_1, ...
 FROM table;
 `
-__Query Data using LIKE Operator__
+# Query Data using LIKE Operator
 
 -` SELECT * FROM table_name
 WHERE column LIKE '%value%'`
 
-__Query Data using BETWEEN Operator__
+# Query Data using BETWEEN Operator
 
 -`SELECT * FROM table_name
 WHERE column BETWEEN low AND high; `
 
-__Query Data using IN Operator__
+# Query Data using IN Operator
 
 -`SELECT * FROM table_name
 WHERE column IN (value1, value2,...); `
 
-__Constrain the Returned Rows with the LIMIT Clause:__
+# Constrain the Returned Rows with the LIMIT Clause:
 
 -`SELECT * FROM table_name
 LIMIT limit OFFSET offset
 ORDER BY column_name; `
 
-__Query Data from Multiple using the Inner Join, Left Join, Full Outer Join, Cross Join and Natural Join__
+# Query Data from Multiple using the Inner Join, Left Join, Full Outer Join, Cross Join and Natural Join
 
 -`SELECT * 
 FROM table1
@@ -239,24 +239,24 @@ CROSS JOIN table2; `
 FROM table1
 NATURAL JOIN table2; `
 
-__Return the Number of Rows of a Table__
+# Return the Number of Rows of a Table
 
 -`SELECT COUNT (*)
 FROM table_name; `
 
-__Sort Rows in Ascending or Descending Order__
+# Sort Rows in Ascending or Descending Order
 
 -`SELECT select_list
 FROM table
 ORDER BY column ASC [DESC], column2 ASC [DESC],...; `
 
-__Group rows using GROUP BY clause__
+# Group rows using GROUP BY clause
 
 -`SELECT *
 FROM table
 GROUP BY column_1, column_2, ...; `
 
-__Filter Groups using the HAVING Clause__
+# Filter Groups using the HAVING Clause
 
 -`SELECT *
 FROM table
@@ -265,19 +265,19 @@ HAVING condition; `
 
 
 >## Set Operators
-__Combine the Result set of Two or More Queries with UNION Operator__
+# Combine the Result set of Two or More Queries with UNION Operator
 
 -`SELECT * FROM table1
 UNION
 SELECT * FROM table2; `
 
-__Minus a result set using EXCEPT operator__
+# Minus a result set using EXCEPT operator
 
 -`SELECT * FROM table1
 EXCEPT
 SELECT * FROM table2; `
 
-__Get intersection of the result sets of two queries__
+# Get intersection of the result sets of two queries
 
 -`SELECT * FROM table1
 INTERSECT
@@ -285,51 +285,51 @@ SELECT * FROM table2; `
 
 
 >## Modifying Data
-__Insert a new row into a table__
+# Insert a new row into a table
 
 -`INSERT INTO table(column1,column2,...)
 VALUES(value_1,value_2,...); `
 
-__Insert multiple rows into a table__
+# Insert multiple rows into a table
 
 -`INSERT INTO table_name(column1,column2,...)
 VALUES(value_1,value_2,...),
 (value_1,value_2,...),
 (value_1,value_2,...)...`
 
-__Update data for all rows__
+# Update data for all rows
 
 -`UPDATE table_name
 SET column_1 = value_1,
 ...; `
 
-__Update data for a set of rows specified by a condition in the WHERE clause__
+# Update data for a set of rows specified by a condition in the WHERE clause
 
 -`UPDATE table
 SET column_1 = value_1,
 ...
 WHERE condition; `
 
-__Delete all rows of a table__
+# Delete all rows of a table
 
 -`DELETE FROM table_name; `
 
-__Delete specific rows based on a condition__
+# Delete specific rows based on a condition
 
 -`DELETE FROM table_name
 WHERE condition; `
 
 
 >## Performance
-__Show the query plan for a query__
+# Show the query plan for a query
 
 -`EXPLAIN query; `
 
-__Show and execute the query plan for a query__
+# Show and execute the query plan for a query
 
 -`EXPLAIN ANALYZE query; `
 
-__Collect statistics__
+# Collect statistics
 
 -`ANALYZE table_name; `
 
