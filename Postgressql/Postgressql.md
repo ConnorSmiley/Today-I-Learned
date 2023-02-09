@@ -1,4 +1,4 @@
-__Create Schema__
+>Create Schema__
 
 -`CREATE SCHEMA schema_name;`
 
