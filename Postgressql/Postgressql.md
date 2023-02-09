@@ -1,8 +1,11 @@
 __Create Schema__
 
 -`CREATE SCHEMA schema_name;`
+
 Or  
+
 -`CREATE SCHEMA [IF NOT EXISTS] schema_name;`
+
 
 -`CREATE SCHEMA employee;`
 
