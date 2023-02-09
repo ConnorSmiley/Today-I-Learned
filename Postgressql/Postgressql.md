@@ -1,4 +1,4 @@
->Create Schema
+# Create Schema
 
 -`CREATE SCHEMA schema_name;`
 
