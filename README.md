@@ -237,7 +237,25 @@ __Commands__
 
 -`yarn prisma generate`
 
+_________________________________________
+ generator client { 
 
+  provider        = "prisma-client-js"
+
+  previewFeatures = ["multiSchema"]
+  }
+
+_________________________________________
+
+datasource db {
+
+provider = "postgresql"
+
+url      = env("DATABASE_URL")
+
+schemas  = ["auth", "public"]
+
+}
 
 
 > ## Premiere
