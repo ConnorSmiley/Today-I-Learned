@@ -100,6 +100,11 @@ c2 type(size) NULL,
 ...
 );`
 
+
+# Alter Column
+
+- `ALTER TABLE table_name ALTER COLUMN column_name new_data_type;`
+
 # Add New Column
 
 -`ALTER TABLE table_name ADD COLUMN new_column_name TYPE; `
