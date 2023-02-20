@@ -16,6 +16,8 @@
 
 -[Dev-Tools](#Dev-Tools)
 
+-[Fastify](#Fastify)
+
 -[JavaScript](#JavaScript)
 
 -[GitHub](#GitHub)
@@ -112,9 +114,18 @@ __Azure Notes__
 [JavaScript](JavaScript/JavaScript.md)
 
 
+
 > ## GitHub
 
 [Github](Github/Github.md)
+
+
+
+> ## Fastify
+
+[Fastify](Fastify/Fastify.md)
+
+
 
 > ## Iterm
 __Clear History__  
