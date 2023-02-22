@@ -221,6 +221,15 @@ useEffect(() => {
 }, [])
 ```
 
+__Nodemon server__
+
+```markdown
+"proxy": "http://localhost:3001",
+"scripts": {
+"dev": "concurrently \"open http://localhost:3000 && next dev\" \"npm run server\"",
+```
+
+
 > ## Postgressql
 [Postgressql](Postgressql/Postgressql.md)
 
