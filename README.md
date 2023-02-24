@@ -80,6 +80,7 @@
 
 -[ShortCutUpdates](#ShortCutUpdates)
 
+-[Supabase](#Supabase)
 
 
 
@@ -439,6 +440,7 @@ export default $VAR$.reducer
 
 
 
+
 > ## Security
 
 `ACL` - Access Control List
@@ -448,6 +450,13 @@ export default $VAR$.reducer
 __Alias File__    
 -`/Users/UserName/.zshrc`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Primary Mac?
+
+> ## Supabase
+__Alter postgres to superuser__
+
+`alter user postgres with superuser`
+
+
 
 > ## TailWindCss
 __Center Absolute__  
