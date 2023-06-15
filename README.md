@@ -6,6 +6,8 @@
 
 -[A-plus](#A-plus)
 
+-[Algos](#Algos)
+
 -[AWS](#AWS)
 
 -[Cookies](#Cookies)
@@ -89,6 +91,11 @@
 
 > ## A-plus
 __Acronym__
+
+
+> ## Algos
+
+[Algos](Algos/Algos.md)
 
 [A+ Notes](Comptia-a-plus-acronym/acronyms.md)
 
