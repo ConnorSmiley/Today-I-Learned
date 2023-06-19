@@ -135,8 +135,8 @@ const merge = (input) => {
 
 > ## Quick Sort
 #### 
-#### Time =  
-###### Space Compx = 
+#### Time = Best, Avg: O(n log n) | Worst O(n**2)
+###### Space Compx = O(log n)
 
 
 ```javascript
@@ -157,8 +157,17 @@ const x = (arr, start = 0, end = arr.length + 1) => {
         }
     }
     swap(arr, start, swapIdx)
-    console.log(arr)
     return swapIdx
+}
+
+const quicksort = (arr, left = 0, right = arr.length - 1) => {
+    if (left < right) {
+        let pivotIndex = x(arr, left, right)
+
+        quicksort(arr,left, pivotIndex-1)
+        quicksort(arr,pivotIndex+1,right)
+    }
+    return arr
 }
 ``` 
 
@@ -166,6 +175,43 @@ const x = (arr, start = 0, end = arr.length + 1) => {
 
 
 
+> ## Radix Sort
+#### 
+#### Time = O(nk)
+###### Space Compx = O(n + k)
+
+
+```javascript
+const getDigit = (num, i) => {
+    return Math.floor(Math.abs(num) / Math.pow(10, i)) % 10
+}
+
+const digitCount = (num) => {
+    if (num === 0) return 1
+    return Math.floor(Math.log10(Math.abs(num))) + 1
+}
+
+const mostDigits = (nums) => {
+    let maxDigits = 0
+    for (let i = 0; i < nums.length; i++){
+        maxDigits = Math.max(maxDigits, digitCount(nums[i]))
+    }
+    return maxDigits
+}
+
+const radixSort = (nums) => {
+    let maxDigitCount = mostDigits(nums)
+    for (let d = 0; d < maxDigitCount; d++){
+        let digitBuckets = Array.from({length:10}, () => [])
+        for (let i = 0; i < nums.length; i++){
+            let digit = getDigit(nums[i], k)
+            digitBuckets[digit].push(nums[i])
+        }
+        nums = [].concat(...digitBuckets)
+    }
+}
+
+``` 
 
 
 
