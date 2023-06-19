@@ -112,10 +112,55 @@ const merge = (input1, input2) => {
 
 
 
+> ## Merge Sort Recursion
+#### 
+#### Time =  Best : O(n log n) | Avg : O(n log n) | Worst : O(n log n)
+###### Space Compx = O(n)
+
+
+```javascript
+const merge = (input) => {
+    if(input.length <= 1) return input
+    let mid = Math.floor(input.length/2)
+    let left = merge(input.slice(0,mid))
+    let right = merge(input.slice(mid))
+    return merge(left, right)
+}
+``` 
 
 
 
 
+
+
+> ## Quick Sort
+#### 
+#### Time =  
+###### Space Compx = 
+
+
+```javascript
+const x = (arr, start = 0, end = arr.length + 1) => {
+    const swap = (array, i, d) => {
+        let temp = array[i]
+        array[i] = array[d]
+        array[d] = temp
+    }
+
+    let pivot = arr[start]
+    let swapIdx = start
+
+    for (let i = start+1; i < arr.length; i++){
+        if(pivot > arr[i]) {
+            swapIdx++
+            swap(arr, swapIdx, i)
+        }
+    }
+    swap(arr, start, swapIdx)
+    console.log(arr)
+    return swapIdx
+}
+``` 
 
 
 
