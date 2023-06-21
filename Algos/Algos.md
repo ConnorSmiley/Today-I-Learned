@@ -361,7 +361,7 @@ console.log(stack)
 
 > ## Queue Linked-list
 
-### First IN / First Out
+### First IN / First OUT
 
 #### Insertion - O(1)
 #### Removal - O(1)
