@@ -363,10 +363,10 @@ console.log(stack)
 
 ### First IN / First Out
 
-#### Insertion - 
-#### Removal - 
-#### Searching - 
-#### Access - 
+#### Insertion - O(1)
+#### Removal - O(1)
+#### Searching - O(n)
+#### Access - O(n)
 
 #### Time =
 ###### Space Compx =
