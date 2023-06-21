@@ -257,7 +257,6 @@ delete this.adjacenyList[vertex]
 }
 }
 
-
 const graph = new Graph()
 graph.addVertex("Tokyo")
 graph.addVertex("Texas")
@@ -275,3 +274,222 @@ graph.removeVertex("Tokyo")
 console.log(graph)
 
 ``` 
+
+
+
+
+
+
+
+> ## Stack Link-list
+
+### First IN / Last Out
+
+#### Insertion - O(1)
+#### Removal - O(1)
+#### Searching - O(n)
+#### Access - O(n)
+
+#### Time =
+###### Space Compx =
+
+```javascript
+class Node {
+    constructor(value) {
+        this.value = value
+        this.next = null
+
+    }
+}
+
+class Stack {
+    constructor() {
+        this.first = null
+        this.last = null
+        this.size = 0
+
+    }
+    push(val) {
+        const newNode = new Node(val)
+        if (!this.first) {
+            this.first = newNode
+            this.last = newNode
+        } else {
+            let temp = this.first
+            this.first = newNode
+            this.first.next = temp
+        }
+        return ++this.size
+    }
+    pop() {
+        if(!this.first) return null
+        let temp = this.first
+        if(this.first === this.last) {
+            this.last = null
+        }
+        this.first = this.first.next
+        this.size--
+        return temp.value
+    }
+}
+
+
+const stack = new Stack()
+
+stack.push("a")
+stack.push("b")
+stack.push("c")
+stack.push("d")
+console.log(stack)
+stack.pop()
+console.log(stack)
+stack.pop()
+console.log(stack)
+stack.pop()
+console.log(stack)
+stack.pop()
+console.log(stack)
+``` 
+
+
+
+
+
+
+
+
+
+> ## Queue Linked-list
+
+### First IN / First Out
+
+#### Insertion - 
+#### Removal - 
+#### Searching - 
+#### Access - 
+
+#### Time =
+###### Space Compx =
+
+```javascript
+class Node {
+    constructor(value) {
+        this.value = value
+        this.next = null
+    }
+}
+
+class Queue {
+    constructor() {
+        this.first = null
+        this.last = null
+        this.size = 0
+    }
+
+    enqueue(val) {
+        let newNode = new Node(val)
+        if (!this.first) {
+            this.first =  newNode
+            this.last = newNode
+        } else {
+            this.last.next = newNode
+            this.last = newNode
+        }
+        return ++this.size
+    }
+
+    dequeue() {
+        if(!this.first) return null
+        let temp = this.first
+        if(this.first === this.last) {
+         this.last = null
+        }
+        this.first = this.first.next
+        this.size--
+        return temp.value
+    }
+}
+
+
+const q = new Queue()
+q.enqueue('a')
+q.enqueue('b')
+q.enqueue('c')
+q.enqueue('d')
+q.dequeue()
+
+console.log(q)
+
+``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
